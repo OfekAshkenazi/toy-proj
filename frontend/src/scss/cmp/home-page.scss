@@ -1,0 +1,12 @@
+.home-page {
+    display: grid;
+    justify-self: center;
+    padding: em(15px);
+    min-height: 79.7vh;
+    
+    @include for-narrow-layout {
+        display: flex;
+        flex-direction: row;
+        margin-top: em(20px);
+    }
+}

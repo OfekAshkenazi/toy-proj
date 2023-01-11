@@ -1,27 +1,42 @@
-import React from 'react'
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js'
-import { Doughnut } from 'react-chartjs-2'
+import React, { useEffect } from 'react'
+import { Chart as ChartJS, RadialLinearScale, ArcElement, Tooltip, Legend } from 'chart.js'
+import { Doughnut, PolarArea } from 'react-chartjs-2'
 import { useSelector } from 'react-redux';
 import { store } from '../store/store';
+import { loadToys } from '../store/toy.action';
 
 export function HomePage() {
     const toys = useSelector((storeState) => storeState.toyModule.toys)
-    ChartJS.register(ArcElement, Tooltip, Legend)
-
+    ChartJS.register(ArcElement, RadialLinearScale, Tooltip, Legend)
     const labels = ['On wheels', 'Box game', 'Art', 'Baby', 'Doll', 'Puzzle', 'Outdoor', 'Battery Powered']
 
-    const array = [5, 5, 5, 5, 6, 8, 9]
-    // const res = Array.from(toys.reduce(
-    //     (m, { name, value }) => m.set(name, (m.get(name) || 0) + value), new Map
-    // ), ([name, value]) => ({ name, value }));
-    // console.log(res)
+    useEffect(() => {
+        loadToys()
+    }, [])
+    function getChartsData() {
+        const chartsData = toys.reduce(
+            (acc, toy) => {
+                toy.labels.forEach((label) => {
+                    acc.labelsCountMap[label] = acc.labelsCountMap[label] ? ++acc.labelsCountMap[label] : 1
+                    acc.labelsPriceMap[label] = acc.labelsPriceMap[label] ? (acc.labelsPriceMap[label] += toy.price) : toy.price
+                })
+
+                return acc
+            },
+            { labelsCountMap: {}, labelsPriceMap: {} }
+        )
+        Object.keys(chartsData.labelsPriceMap).forEach((label) => (chartsData.labelsPriceMap[label] /= chartsData.labelsCountMap[label]))
+
+        return chartsData
+    }
+    const { labelsPriceMap, labelsCountMap } = getChartsData()
 
     const data = {
         labels: labels,
         datasets: [
             {
-                label: 'count of toys',
-                data: array,
+                label: 'avarage price of toys',
+                data: Object.values(labelsPriceMap),
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
                     'rgba(54, 162, 235, 0.2)',
@@ -50,8 +65,8 @@ export function HomePage() {
         labels: labels,
         datasets: [
             {
-                label: 'count of toys',
-                data: array,
+                label: 'count of toys in label',
+                data: Object.values(labelsCountMap),
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
                     'rgba(54, 162, 235, 0.2)',
@@ -77,14 +92,12 @@ export function HomePage() {
         ],
     }
     return <section className="home-page">
-        <h1>apps is life</h1>
-        <div style={{ width: '300px' }} className="chart">
+        <div style={{ width: '330px' }} className="chart">
             <Doughnut data={data} />
-
         </div>
-        <div style={{ width: '300px' }} className="chart">
-            <Doughnut data={data2} />
-
+        <div style={{ width: '330px' }} className="chart">
+            <PolarArea data={data2} />
         </div>
+
     </section >
 }

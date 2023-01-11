@@ -1,5 +1,5 @@
 import GoogleMapReact from 'google-map-react';
-import {  useState } from 'react';
+import { useState } from 'react';
 
 const AnyReactComponent = ({ text }) => <div>🛒{text}</div>;
 
@@ -14,8 +14,7 @@ export function GoogleMap() {
 
     return (
         <section>
-
-            <div style={{ height: '65vh', width: '80%', margin: 'auto' }}>
+            <div className="google-map" style={{ height: '65vh' }}>
                 <GoogleMapReact
                     bootstrapURLKeys={{ key: "AIzaSyDXaNvMCqlwqiat6a6gL7A0mN-z93Tojdk" }}
                     defaultCenter={coordinates}

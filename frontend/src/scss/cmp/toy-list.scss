@@ -1,0 +1,27 @@
+.toys-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: em(10px);
+    gap: 5px;
+
+    .toy-card {
+        display: grid;
+        gap: 5px;
+        text-align: center;
+        padding: em(15px) em(20px);
+        width: 320px;
+        background-color: $clrCards;
+        border-radius: 8px;
+        img {
+            background-color: $clrWhite;
+        }
+
+    }
+
+
+    .btn-list {
+        display: flex;
+        justify-content: center;
+    }
+}

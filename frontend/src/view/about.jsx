@@ -1,21 +1,12 @@
-import { Basic } from "../cmp/form-valid";
 import { GoogleMap } from "../cmp/google-map";
 
 export function About() {
 
-   return (
-    <section>
-        <div className="">
-
-        about about
-        </div>
-        <div className="d">
+    return (
+        <section className="about">
+            <h2>Wellcome here our shops around the world</h2>
             <GoogleMap />
-        </div>
-        <div className="">
-            <Basic />
-        </div>
-    </section>
+        </section>
 
-   )
+    )
 }

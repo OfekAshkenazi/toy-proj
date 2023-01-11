@@ -1,12 +1,9 @@
-
 const toyService = require('./services/toy.service.js')
 
 const express = require('express')
 const cors = require('cors')
 const app = express()
 const path = require('path')
-
-
 
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static(path.resolve(__dirname, 'public')))
@@ -25,7 +22,7 @@ app.use(express.json())
 
 /// list
 app.get('/api/toy', (req, res) => {
-    const filterBy = req.params
+    const filterBy = req.query
     toyService.query(filterBy)
         .then((toys) => {
             res.send(toys)

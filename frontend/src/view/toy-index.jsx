@@ -1,23 +1,28 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { ToyFilter } from "../cmp/toy-filter.jsx";
 import { ToyList } from "../cmp/toy-list";
+
+import { toyService } from "../services/toy-back.service.js";
 
 import { loadToys, removeToy, setFilter } from "../store/toy.action";
 import { SET_FILTER } from "../store/toy.reducer";
 
 export function ToyIndex() {
     const toys = useSelector((storeState) => storeState.toyModule.toys)
-    const filterBy = useSelector((storeState) => storeState.toyModule.filterBy)
+    // const filterBy = useSelector((storeState) => storeState.toyModule.filterBy)
     const dispatch = useDispatch()
     const navigate = useNavigate()
+    const [searchParams, setSearchParams] = useSearchParams()
+    const queryFilterBy = toyService.getFilterFromSearchParams(searchParams)
 
     useEffect(() => {
-        onLoadToys(filterBy)
-    }, [filterBy])
+        onLoadToys(queryFilterBy)
+    }, [queryFilterBy])
 
     function onSetFilter(filterBy) {
+        setSearchParams(filterBy)
         return dispatch({ type: SET_FILTER, filterBy })
     }
 
@@ -41,8 +46,8 @@ export function ToyIndex() {
 
     return (
         <section>
-            <ToyFilter filterBy={filterBy} onSetFilter={onSetFilter} />
-            <button onClick={onGoToAdd}>add toy</button>
+            <ToyFilter filterBy={queryFilterBy} onSetFilter={onSetFilter} />
+            <button className="btn" onClick={onGoToAdd}>Add toy</button>
             <ToyList toys={toys} onRemoveToy={onRemoveToy} />
         </section>
     )

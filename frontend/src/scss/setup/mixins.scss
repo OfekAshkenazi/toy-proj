@@ -1,0 +1,33 @@
+@mixin for-narrow-layout {
+    @media (min-width: $break-narrow) {
+        @content;
+    }
+}
+
+@mixin for-normal-layout {
+    @media (min-width: $break-normal) {
+        @content;
+    }
+}
+
+@mixin for-wide-layout {
+    @media (min-width: $break-wide) {
+        @content;
+    }
+}
+
+
+@mixin layoutGTC($max) {
+    grid-template-columns:
+        minmax($layoutPadding, 1fr) minmax(auto, $max) minmax($layoutPadding, 1fr);
+}
+
+
+@mixin btn() {
+    background-color: $clrYellow;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.5px;
+    margin-left: 0.5px;
+    padding: em(7px) em(7px);
+}

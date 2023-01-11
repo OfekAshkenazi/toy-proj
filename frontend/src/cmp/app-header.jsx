@@ -1,7 +1,7 @@
 import { Link, NavLink } from "react-router-dom"
 
 export function AppHeader() {
-    return <header className="app-header flex">
+    return <header className="full app-header">
         <Link to="/"><h3>Home</h3></Link>
         <nav className="flex">
             <NavLink to="/">Home</NavLink>

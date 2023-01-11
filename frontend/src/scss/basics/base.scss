@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: $clrGreay;
+
+}
+
+img {
+    width: 100%;
+    aspect-ratio: 1 / 0.8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+section,
+div,
+article,
+nav,
+header,
+footer,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: $clrWhite;
+    display: inline-block;
+    cursor: pointer;
+
+    &.active {
+        background-color: $clrYellow;
+    }
+}
+
+.btn {
+    @include btn();
+}
+
+

@@ -6,21 +6,21 @@ import routes from './routes.js'
 import { AppHeader } from "./cmp/app-header.jsx";
 
 import { store } from './store/store';
-import './assets/style/main.css';
-
+import './scss/styels.scss';
+import { AppFooter } from "./cmp/app-footer.jsx";
 
 function App() {
   return (
-
     <Provider store={store}>
       <Router>
-        <section>
+        <section className="main-layout">
           <AppHeader />
           <Routes>
             {routes.map(route =>
               <Route key={route.path} element={<route.component />} path={route.path} />
             )}
           </Routes>
+          <AppFooter />
         </section>
       </Router>
     </Provider>

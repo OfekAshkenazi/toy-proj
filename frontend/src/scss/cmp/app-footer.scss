@@ -1,0 +1,13 @@
+footer {
+    display: grid;
+    background-color: $clrRed;
+    text-align: center;
+    gap: 5px;
+    padding: em(5px) em(0px);
+    ul {
+        justify-content: center;
+    }
+    a {
+        padding: em(10px) em(5px);
+    }
+}
