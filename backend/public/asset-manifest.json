@@ -1,13 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.3045d250.css",
-    "main.js": "/static/js/main.92ca033b.js",
+    "main.css": "/static/css/main.42202712.css",
+    "main.js": "/static/js/main.0ad779b5.js",
+    "static/media/autobot_fight.jpg": "/static/media/autobot_fight.8f8bcf995e99eb82f5f6.jpg",
+    "static/media/PJpower_mask.webp": "/static/media/PJpower_mask.569b5f44fd38c84b3d18.webp",
+    "static/media/Broly_Action-figure.webp": "/static/media/Broly_Action-figure.e1f2d6a4ae92d30ae37f.webp",
+    "static/media/streach_ironman.webp": "/static/media/streach_ironman.21b49bafec481c9cb3b4.webp",
+    "static/media/ninjagu_green.webp": "/static/media/ninjagu_green.4d3809f5920bb703d810.webp",
+    "static/media/Guku_Action-figure.webp": "/static/media/Guku_Action-figure.424a6f7b345490bfc4e6.webp",
+    "static/media/Friza_Action-figure.webp": "/static/media/Friza_Action-figure.afae18eb610feb9ccf87.webp",
+    "static/media/Gohan_Action-figure.webp": "/static/media/Gohan_Action-figure.b0ef02491a2e190bf2db.webp",
     "index.html": "/index.html",
-    "main.3045d250.css.map": "/static/css/main.3045d250.css.map",
-    "main.92ca033b.js.map": "/static/js/main.92ca033b.js.map"
+    "main.42202712.css.map": "/static/css/main.42202712.css.map",
+    "main.0ad779b5.js.map": "/static/js/main.0ad779b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.3045d250.css",
-    "static/js/main.92ca033b.js"
+    "static/css/main.42202712.css",
+    "static/js/main.0ad779b5.js"
   ]
 }
