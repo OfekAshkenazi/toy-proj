@@ -6,20 +6,20 @@ import { ToyList } from "../cmp/toy-list";
 
 import { toyService } from "../services/toy-back.service.js";
 
-import { loadToys, removeToy, setFilter } from "../store/toy.action";
+import { loadToys, removeToy } from "../store/toy.action";
 import { SET_FILTER } from "../store/toy.reducer";
 
 export function ToyIndex() {
     const toys = useSelector((storeState) => storeState.toyModule.toys)
-    // const filterBy = useSelector((storeState) => storeState.toyModule.filterBy)
+    const filterBy = useSelector((storeState) => storeState.toyModule.filterBy)
     const dispatch = useDispatch()
     const navigate = useNavigate()
     const [searchParams, setSearchParams] = useSearchParams()
     const queryFilterBy = toyService.getFilterFromSearchParams(searchParams)
 
     useEffect(() => {
-        onLoadToys(queryFilterBy)
-    }, [queryFilterBy])
+        onLoadToys(filterBy)
+    }, [filterBy])
 
     function onSetFilter(filterBy) {
         setSearchParams(filterBy)
@@ -27,17 +27,11 @@ export function ToyIndex() {
     }
 
     function onLoadToys(filterBy) {
-        loadToys(filterBy)
-            .catch(err => {
-                console.log(err)
-            })
+        try { loadToys(filterBy) } catch (err) { console.log('error') }
     }
 
     function onRemoveToy(toyId) {
-        removeToy(toyId)
-            .catch(err => {
-                console.log(err)
-            })
+        try { removeToy(toyId) } catch (err) { console.log(err) }
     }
 
     function onGoToAdd() {

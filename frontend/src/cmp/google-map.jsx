@@ -1,7 +1,7 @@
 import GoogleMapReact from 'google-map-react';
 import { useState } from 'react';
 
-const AnyReactComponent = ({ text }) => <div>🛒{text}</div>;
+const AnyReactComponent = ({ text }) => <div>🛒🛒🛒{text}</div>;
 
 export function GoogleMap() {
 

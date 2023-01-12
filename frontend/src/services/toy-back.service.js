@@ -1,6 +1,6 @@
 import { httpService } from './http.service.js'
 const labels = ['On wheels', 'Box game', '"Art', 'Baby', 'Doll', 'Puzzle', 'Outdoor', 'Battery Powered']
-const BASE_URL = 'toy/'
+const BASE_URL = 'toy'
 export const toyService = {
     query,
     get,
@@ -20,36 +20,50 @@ function getFilterFromSearchParams(searchParams) {
     return filterBy
 }
 
-
 function getDefaultFilter() {
     return { name: '', inStock: '', labels: '' }
-
 }
 
-function query(filterBy) {
-    if(!filterBy) return httpService.get(BASE_URL)
+async function query(filterBy) {
+    let List
     const queryParams = `?name=${filterBy.name}&inStock=${filterBy.inStock}`
-    return httpService.get(BASE_URL + queryParams)
+    try {
+        if (!filterBy) {
+            List = await httpService.get(BASE_URL)
+            return List
+        } else {
+            List = httpService.get(BASE_URL + queryParams)
+            return List
+        }
+
+    } catch (err) { console.log(err) }
 }
 
-function get(toyId) {
-    return httpService.get(BASE_URL + toyId)
+async function get(toyId) {
+    try {
+        const Get = await httpService.get(BASE_URL + `/${toyId}`)
+        return Get
+    } catch (err) { console.log(err) }
+
 }
 
-function remove(toyId) {
-    return httpService.delete(BASE_URL + toyId)
+async function remove(toyId) {
+    try {
+        const Delete = await httpService.delete(BASE_URL + `/${toyId}`)
+        return Delete
+    } catch (err) { console.log(err) }
 }
 
-function save(toy) {
+async function save(toy) {
+    var savedToy
     if (toy._id) {
-        return httpService.put(BASE_URL, toy)
+        savedToy = await httpService.put(BASE_URL + `/${toy._id}`, toy)
     }
     else {
-        return httpService.post(BASE_URL, toy)
+        savedToy = await httpService.post(BASE_URL, toy)
     }
+    return savedToy
 }
-
-
 
 function getEmptyToy() {
     const toy = {
@@ -61,17 +75,3 @@ function getEmptyToy() {
     }
     return toy
 }
-
-
-
-
-
-// let filterToys = toys
-// if (filterBy.name) {
-//     const regex = new RegExp(filterBy.name, 'i')
-//     filterToys = toys.filter(t => regex.test(t.name))
-// }
-// if (filterBy.inStock === 'forSale') {
-//     filterToys = toys.filter(t => t.inStock === true)
-// }
-// return filterToys

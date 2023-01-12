@@ -1,0 +1,67 @@
+12.1.2023, 19:55:24 - INFO - Req was made 
+12.1.2023, 19:55:24 - DEBUG - export toys 
+12.1.2023, 19:55:25 - INFO - Req was made 
+12.1.2023, 19:55:25 - DEBUG - export toys 
+12.1.2023, 19:55:45 - INFO - Req was made 
+12.1.2023, 19:55:45 - DEBUG - export toys 
+12.1.2023, 19:55:45 - INFO - Req was made 
+12.1.2023, 19:55:45 - DEBUG - export toys 
+12.1.2023, 19:55:52 - INFO - Req was made 
+12.1.2023, 19:55:52 - DEBUG - export toys 
+12.1.2023, 19:55:52 - INFO - Req was made 
+12.1.2023, 19:55:52 - DEBUG - export toys 
+12.1.2023, 19:55:59 - ERROR - cannot update toy  | ReferenceError: car is not defined 
+12.1.2023, 19:55:59 - ERROR - Cannot update toy | ReferenceError: car is not defined 
+12.1.2023, 19:56:01 - INFO - Req was made 
+12.1.2023, 19:56:01 - DEBUG - export toys 
+12.1.2023, 19:56:01 - INFO - Req was made 
+12.1.2023, 19:56:01 - DEBUG - export toys 
+12.1.2023, 19:59:14 - DEBUG - export toys 
+12.1.2023, 19:59:14 - INFO - Req was made 
+12.1.2023, 19:59:15 - INFO - Req was made 
+12.1.2023, 19:59:15 - DEBUG - export toys 
+12.1.2023, 19:59:27 - ERROR - Cannot update toy | ReferenceError: car is not defined 
+12.1.2023, 19:59:27 - ERROR - cannot update toy  | ReferenceError: car is not defined 
+12.1.2023, 20:00:33 - INFO - App listening on port 3030! 
+12.1.2023, 20:00:43 - DEBUG - export toys 
+12.1.2023, 20:00:43 - INFO - Req was made 
+12.1.2023, 20:00:43 - INFO - Req was made 
+12.1.2023, 20:00:43 - DEBUG - export toys 
+12.1.2023, 20:01:58 - INFO - Req was made 
+12.1.2023, 20:01:58 - DEBUG - export toys 
+12.1.2023, 20:02:06 - INFO - Req was made 
+12.1.2023, 20:02:06 - DEBUG - export toys 
+12.1.2023, 20:02:06 - INFO - Req was made 
+12.1.2023, 20:02:06 - DEBUG - export toys 
+12.1.2023, 20:02:19 - INFO - Req was made 
+12.1.2023, 20:02:19 - DEBUG - export toys 
+12.1.2023, 20:02:25 - INFO - Req was made 
+12.1.2023, 20:02:25 - DEBUG - export toys 
+12.1.2023, 20:02:26 - INFO - Req was made 
+12.1.2023, 20:02:26 - DEBUG - export toys 
+12.1.2023, 20:03:30 - INFO - Req was made 
+12.1.2023, 20:03:30 - DEBUG - export toys 
+12.1.2023, 20:03:33 - INFO - Req was made 
+12.1.2023, 20:03:33 - DEBUG - export toys 
+12.1.2023, 20:03:34 - INFO - Req was made 
+12.1.2023, 20:03:34 - DEBUG - export toys 
+12.1.2023, 20:06:14 - INFO - Req was made 
+12.1.2023, 20:06:14 - DEBUG - export toys 
+12.1.2023, 20:06:16 - DEBUG - export toys 
+12.1.2023, 20:06:16 - INFO - Req was made 
+12.1.2023, 20:06:16 - INFO - Req was made 
+12.1.2023, 20:06:16 - DEBUG - export toys 
+12.1.2023, 20:06:18 - INFO - Req was made 
+12.1.2023, 20:06:18 - DEBUG - export toys 
+12.1.2023, 20:06:22 - INFO - Req was made 
+12.1.2023, 20:06:22 - DEBUG - export toys 
+12.1.2023, 20:06:22 - INFO - Req was made 
+12.1.2023, 20:06:22 - DEBUG - export toys 
+12.1.2023, 20:06:24 - INFO - Req was made 
+12.1.2023, 20:06:24 - DEBUG - export toys 
+12.1.2023, 20:06:24 - INFO - Req was made 
+12.1.2023, 20:06:24 - DEBUG - export toys 
+12.1.2023, 20:06:33 - INFO - Req was made 
+12.1.2023, 20:06:33 - DEBUG - export toys 
+12.1.2023, 20:06:49 - INFO - Req was made 
+12.1.2023, 20:06:49 - DEBUG - export toys 

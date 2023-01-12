@@ -1,6 +1,5 @@
 [
     {
-        "_id": "t101",
         "name": "Auto bot",
         "price": 123,
         "labels": [
@@ -13,7 +12,6 @@
         "url": "autobot_fight.jpg"
     },
     {
-        "_id": "t102",
         "name": "Broly",
         "price": 52,
         "labels": [
@@ -24,10 +22,8 @@
         "createdAt": 1631031801011,
         "inStock": true,
         "url": "Broly_Action-figure.webp"
-  
     },
     {
-        "_id": "t103",
         "name": "Friza",
         "price": 85,
         "labels": [
@@ -37,10 +33,8 @@
         "createdAt": 1631031801011,
         "inStock": true,
         "url": "Friza_Action-figure.webp"
-  
     },
     {
-        "_id": "t104",
         "name": "Gohan",
         "price": 100,
         "labels": [
@@ -51,10 +45,8 @@
         "createdAt": 1631031801011,
         "inStock": true,
         "url": "Gohan_Action-figure.webp"
-  
     },
     {
-        "_id": "t105",
         "name": "Guku",
         "price": 75,
         "labels": [
@@ -64,10 +56,8 @@
         "createdAt": 1631031801011,
         "inStock": false,
         "url": "Guku_Action-figure.webp"
-  
     },
     {
-        "_id": "t106",
         "name": "Ninjagu",
         "price": 75,
         "labels": [
@@ -77,10 +67,8 @@
         "createdAt": 1631031801011,
         "inStock": false,
         "url": "ninjagu_green.webp"
-  
     },
     {
-        "_id": "t107",
         "name": "Power mask",
         "price": 75,
         "labels": [
@@ -90,10 +78,8 @@
         "createdAt": 1631031801011,
         "inStock": false,
         "url": "PJpower_mask.webp"
-  
     },
     {
-        "_id": "t108",
         "name": "Iron man",
         "price": 75,
         "labels": [
@@ -103,6 +89,5 @@
         "createdAt": 1631031801011,
         "inStock": false,
         "url": "streach_ironman.webp"
-  
     }
-  ]
+]
