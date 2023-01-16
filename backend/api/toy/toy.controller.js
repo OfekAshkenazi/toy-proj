@@ -1,5 +1,6 @@
 const toyService = require('./toy.service.js')
 const logger = require('../../services/logger.service')
+const { makeId } = require('../../services/util.service.js')
 
 
 module.exports = {
@@ -8,7 +9,7 @@ module.exports = {
     addToy,
     updateToy,
     removeToy,
-    // addCarMsg,
+    addToyMsg,
     // removeCarMsg
 }
 
@@ -16,7 +17,6 @@ async function getToys(req, res) {
     try {
         logger.debug('export toys')
         const filterBy = req.query
-        console.log(filterBy)
         const toys = await toyService.query(filterBy)
         res.json(toys)
     } catch (err) {
@@ -70,5 +70,19 @@ async function removeToy(req, res) {
     } catch (err) {
         logger.error('Cannot remove toy', err)
         res.status(500).send({ err: 'Cannot remove toy' })
+    }
+}
+
+async function addToyMsg(req, res) {
+    const { loggedinUser } = req
+    try {
+        const toyId = req.params.id
+        const  msg  = req.body
+
+        const savedMsg = await toyService.addToyMsg(toyId, msg, loggedinUser)
+        res.json(savedMsg)
+    } catch (err) {
+        logger.error('Cannot add msg', err)
+        res.status(500).send({ err: 'Cannot add msg' })
     }
 }

@@ -1,0 +1,13 @@
+.review-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7.5px;
+    justify-content: center;
+
+    .review-preview {
+        background-color: $clrCards;
+        padding: em(15px);
+        border-radius: 5px;
+    }
+
+}

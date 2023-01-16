@@ -5,6 +5,7 @@ export const REMOVE_TOY = 'REMOVE_TOY'
 export const ADD_TOY = 'ADD_TOY'
 export const UPDATE_TOY = 'UPDATE_TOY'
 export const SET_FILTER = 'SET_FILTER'
+export const ADD_TOY_MSG = 'ADD_TOY_MSG'
 
 const initialState = {
     toys: [],
@@ -23,6 +24,9 @@ export function toyReducer(state = initialState, action) {
             toys = [action.toy, ...state.toys]
             return { ...state, toys }
         case UPDATE_TOY:
+            toys = state.toys.map(toy => toy._id === action.toy._id ? action.toy : toy)
+            return { ...state, toys }
+        case ADD_TOY_MSG:
             toys = state.toys.map(toy => toy._id === action.toy._id ? action.toy : toy)
             return { ...state, toys }
         case SET_FILTER:

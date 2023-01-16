@@ -2,17 +2,18 @@ import React, { useEffect } from 'react'
 import { Chart as ChartJS, RadialLinearScale, ArcElement, Tooltip, Legend } from 'chart.js'
 import { Doughnut, PolarArea } from 'react-chartjs-2'
 import { useSelector } from 'react-redux';
-import { store } from '../store/store';
 import { loadToys } from '../store/toy.action';
 
 export function HomePage() {
     const toys = useSelector((storeState) => storeState.toyModule.toys)
     ChartJS.register(ArcElement, RadialLinearScale, Tooltip, Legend)
     const labels = ['On wheels', 'Box game', 'Art', 'Baby', 'Doll', 'Puzzle', 'Outdoor', 'Battery Powered']
-
+   
     useEffect(() => {
         loadToys()
     }, [])
+
+
     function getChartsData() {
         const chartsData = toys.reduce(
             (acc, toy) => {

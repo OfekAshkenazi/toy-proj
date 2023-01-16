@@ -1,0 +1,19 @@
+.user-sign-area {
+    // min-height: 70vh;
+
+
+    .user-header {
+        margin-top: 10px;
+    }
+}
+
+.user-header {
+    background-color: $clrGreay;
+    max-width: fit-content;
+    padding: em(15px);
+    border-radius: em(8.5px);
+
+    & button {
+        font-family: poppins;
+    }
+}

@@ -3,6 +3,8 @@ import { ToyIndex } from "./view/toy-index.jsx";
 import { ToyDetails } from "./view/toy-details.jsx";
 import { ToyEdit } from "./view/toy-edit.jsx";
 import { About } from "./view/about.jsx";
+import { Profile } from "./view/profile.jsx";
+import { Reviews } from "./view/reviews.jsx";
 
 export default [
     {
@@ -29,5 +31,12 @@ export default [
         path: '/about',
         component: About,
     },
-    
+    {
+        path: '/profile',
+        component: Profile,
+    },
+    {
+        path: '/reviews',
+        component: Reviews,
+    } 
 ]

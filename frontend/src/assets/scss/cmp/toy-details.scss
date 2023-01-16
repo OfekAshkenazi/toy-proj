@@ -1,0 +1,30 @@
+.toy-details {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(160px, 340px));
+    gap: 10px;
+    background-color: aliceblue;
+    height: fit-content;
+    padding: em(8px) em(0px);
+    margin-top: em(10px);
+    border-radius: 5px;
+    justify-content: center;
+
+    .toy-msg {
+        display: flex;
+        flex-direction: column;
+        padding: em(8px);
+
+        ul {
+            flex-grow: 1;
+        }
+    }
+
+    .toy-card-details {
+        text-align: center;
+        padding: em(12px);
+
+        img {
+            scale: 1 / 0.8;
+        }
+    }
+}

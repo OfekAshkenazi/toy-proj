@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-// import { toyService } from "../services/toy.service";
-import { toyService } from "../services/toy-back.service";
 
+import { showErrorMsg, showSuccessMsg } from "../services/event-bus.service";
+import { toyService } from "../services/toy-back.service";
 import { saveToy } from "../store/toy.action";
 
 export function ToyEdit() {
@@ -10,16 +10,19 @@ export function ToyEdit() {
     const { toyId } = useParams()
     const navigate = useNavigate()
 
-
     useEffect(() => {
         if (!toyId) return
         loadToy()
     }, [])
 
-    function loadToy() {
-        toyService.get(toyId)
-            .then(setToyToEdit)
-            .catch(err => console.log(err))
+    async function loadToy() {
+        try {
+            const toy = await toyService.get(toyId)
+            setToyToEdit(toy)
+        } catch (err) {
+            showErrorMsg('Cannot load Toy')
+            navigate('/toy')
+        }
     }
 
     function handleChange({ target }) {
@@ -28,15 +31,15 @@ export function ToyEdit() {
         setToyToEdit({ ...toyToEdit, [field]: value })
     }
 
-    function onSaveToy(ev) {
+    async function onSaveToy(ev) {
         ev.preventDefault()
-        saveToy(toyToEdit)
-            .then(() => {
-                navigate('/toy')
-            })
-            .catch(err => {
-                console.log(err)
-            })
+        try {
+            await saveToy(toyToEdit)
+            navigate('/toy')
+            showSuccessMsg('Toy Saved')
+        } catch (err) {
+            showErrorMsg('Cannot Save Toy')
+        }
     }
 
     return (

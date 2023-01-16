@@ -1,9 +1,12 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate, useSearchParams } from "react-router-dom";
+
 import { ToyFilter } from "../cmp/toy-filter.jsx";
 import { ToyList } from "../cmp/toy-list";
+import { WellcomeUser } from "../cmp/wellcome-user.jsx";
 
+import { showErrorMsg, showSuccessMsg } from "../services/event-bus.service.js";
 import { toyService } from "../services/toy-back.service.js";
 
 import { loadToys, removeToy } from "../store/toy.action";
@@ -31,7 +34,12 @@ export function ToyIndex() {
     }
 
     function onRemoveToy(toyId) {
-        try { removeToy(toyId) } catch (err) { console.log(err) }
+        try { 
+            removeToy(toyId) 
+            showSuccessMsg('Toy Has Remove')
+        } catch (err) { 
+            showErrorMsg('Cannot Delete Toy')
+        }
     }
 
     function onGoToAdd() {
@@ -39,9 +47,12 @@ export function ToyIndex() {
     }
 
     return (
-        <section>
-            <ToyFilter filterBy={queryFilterBy} onSetFilter={onSetFilter} />
-            <button className="btn" onClick={onGoToAdd}>Add toy</button>
+        <section className="toy-index">
+            <div className="index-header">
+                <ToyFilter filterBy={queryFilterBy} onSetFilter={onSetFilter} />
+                <button className="btn" onClick={onGoToAdd}>Add toy</button>
+                <WellcomeUser />
+            </div>
             <ToyList toys={toys} onRemoveToy={onRemoveToy} />
         </section>
     )

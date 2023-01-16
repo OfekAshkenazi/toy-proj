@@ -1,8 +1,8 @@
-const dbService = require('../../services/db.service')
-const logger = require('../../services/logger.service')
 const ObjectId = require('mongodb').ObjectId
 
-const collection_url = 'toys'
+const dbService = require('../../services/db.service')
+const logger = require('../../services/logger.service')
+const { makeId } = require('../../services/util.service')
 
 module.exports = {
     query,
@@ -10,18 +10,25 @@ module.exports = {
     add,
     update,
     remove,
-    // addCarMsg,
+    addToyMsg,
     // removeCarMsg
 }
 
 async function query(filterBy = { name: '' }) {
+    var test = 2
+    inStock = filterBy.inStock ? true : false
     try {
-        const criteria = {
-            name: { $regex: filterBy.name, $options: 'i' }
-        }
         const collection = await dbService.getCollection('toys')
-        var toys = await collection.find(criteria).toArray()
-        return toys
+        if (!filterBy) {
+            var toys = await collection.find().limit(test * 4).toArray()
+            return toys
+        } else {
+            const criteria = {
+                name: { $regex: filterBy.name, $options: 'i' },
+            }
+            var toys = await collection.find(criteria).toArray()
+            return toys
+        }
     } catch (err) {
         logger.error('cannot find toys', err)
         throw err
@@ -35,10 +42,7 @@ async function get(toyId) {
         const collection = await dbService.getCollection('toys')
         const toy = collection.findOne({ _id: ObjectId(toyId) })
         return toy
-    } catch (err) {
-        logger.error('Cannot find toy', err)
-        throw err
-    }
+    } catch (err) { logger.error('Cannot find toy', err); throw err }
 
 }
 
@@ -48,10 +52,7 @@ async function add(toy) {
         toy.createAt = Date.now()
         await collection.insertOne(toy)
         return toy
-    } catch (err) {
-        logger.error('cannot insert car', err)
-        throw err
-    }
+    } catch (err) { logger.error('cannot insert car', err); throw err }
 }
 
 async function update(toy) {
@@ -63,10 +64,7 @@ async function update(toy) {
         const collection = await dbService.getCollection('toys')
         await collection.updateOne({ _id: ObjectId(toy._id) }, { $set: toyToSave })
         return toy
-    } catch (err) {
-        logger.error(`cannot update toy `, err)
-        throw err
-    }
+    } catch (err) { logger.error(`cannot update toy `, err); throw err }
 }
 
 async function remove(toyId) {
@@ -74,44 +72,25 @@ async function remove(toyId) {
         const collection = await dbService.getCollection('toys')
         await collection.deleteOne({ _id: ObjectId(toyId) })
         return toyId
+    } catch (err) { logger.error(`cannot remove toy ${toyId}`, err); throw err }
+}
+
+async function addToyMsg(toyId, msg, loggedinUser) {
+    try {
+        const msgToSave = {
+            txt: msg.txt,
+            id: msg.id,
+            by: {
+                fullname: loggedinUser.fullname,
+                _id: loggedinUser._id
+            },
+            from: msg.from
+        }
+        const collection = await dbService.getCollection('toys')
+        await collection.updateOne({ _id: ObjectId(toyId) }, { $push: { msgs: msgToSave } })
+        return msgToSave
     } catch (err) {
-        logger.error(`cannot remove toy ${toyId}`, err)
+        logger.error('Cannot add msg to toy')
         throw err
     }
 }
-
-
-// function save(toy) {
-//     if (toy._id) {
-//         const toyToupdate = toys.find(currtoy => currtoy._id === toy._id)
-//         if (!toyToupdate) return Promise.reject('cannot find toy')
-//         toyToupdate.name = toy.name
-//         toyToupdate.price = toy.price
-//     }
-//     else {
-//         toy._id = _makeId()
-//         toy.createAt = Date.now()
-//         toys.push(toy)
-//     }
-//     return _writeToysToFile().then(() => toy)
-// }
-
-//// old function for server
-// function _writeToysToFile() {
-//     return new Promise((res, rej) => {
-//         const data = JSON.stringify(toys, null, 2)
-//         fs.writeFile('data/toy.json', data, (err) => {
-//             if (err) return rej(err)
-//             res()
-//         })
-//     })
-// }
-
-// function _makeId(length = 5) {
-//     let text = ''
-//     const possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
-//     for (let i = 0; i < length; i++) {
-//         text += possible.charAt(Math.floor(Math.random() * possible.length))
-//     }
-//     return text
-// }

@@ -1,4 +1,5 @@
 const MongoClient = require('mongodb').MongoClient
+const logger = require('./logger.service')
 
 const config = require('../config')
 
@@ -6,6 +7,7 @@ module.exports = {
     getCollection
 }
 
+const dbName = 'toy_db'
 var dbConn = null
 
 async function getCollection(collectionName) {
@@ -31,7 +33,3 @@ async function connect() {
         throw err
     }
 }
-
-
-
-

@@ -1,67 +1,1304 @@
-12.1.2023, 19:55:24 - INFO - Req was made 
-12.1.2023, 19:55:24 - DEBUG - export toys 
-12.1.2023, 19:55:25 - INFO - Req was made 
-12.1.2023, 19:55:25 - DEBUG - export toys 
-12.1.2023, 19:55:45 - INFO - Req was made 
-12.1.2023, 19:55:45 - DEBUG - export toys 
-12.1.2023, 19:55:45 - INFO - Req was made 
-12.1.2023, 19:55:45 - DEBUG - export toys 
-12.1.2023, 19:55:52 - INFO - Req was made 
-12.1.2023, 19:55:52 - DEBUG - export toys 
-12.1.2023, 19:55:52 - INFO - Req was made 
-12.1.2023, 19:55:52 - DEBUG - export toys 
-12.1.2023, 19:55:59 - ERROR - cannot update toy  | ReferenceError: car is not defined 
-12.1.2023, 19:55:59 - ERROR - Cannot update toy | ReferenceError: car is not defined 
-12.1.2023, 19:56:01 - INFO - Req was made 
-12.1.2023, 19:56:01 - DEBUG - export toys 
-12.1.2023, 19:56:01 - INFO - Req was made 
-12.1.2023, 19:56:01 - DEBUG - export toys 
-12.1.2023, 19:59:14 - DEBUG - export toys 
-12.1.2023, 19:59:14 - INFO - Req was made 
-12.1.2023, 19:59:15 - INFO - Req was made 
-12.1.2023, 19:59:15 - DEBUG - export toys 
-12.1.2023, 19:59:27 - ERROR - Cannot update toy | ReferenceError: car is not defined 
-12.1.2023, 19:59:27 - ERROR - cannot update toy  | ReferenceError: car is not defined 
-12.1.2023, 20:00:33 - INFO - App listening on port 3030! 
-12.1.2023, 20:00:43 - DEBUG - export toys 
-12.1.2023, 20:00:43 - INFO - Req was made 
-12.1.2023, 20:00:43 - INFO - Req was made 
-12.1.2023, 20:00:43 - DEBUG - export toys 
-12.1.2023, 20:01:58 - INFO - Req was made 
-12.1.2023, 20:01:58 - DEBUG - export toys 
-12.1.2023, 20:02:06 - INFO - Req was made 
-12.1.2023, 20:02:06 - DEBUG - export toys 
-12.1.2023, 20:02:06 - INFO - Req was made 
-12.1.2023, 20:02:06 - DEBUG - export toys 
-12.1.2023, 20:02:19 - INFO - Req was made 
-12.1.2023, 20:02:19 - DEBUG - export toys 
-12.1.2023, 20:02:25 - INFO - Req was made 
-12.1.2023, 20:02:25 - DEBUG - export toys 
-12.1.2023, 20:02:26 - INFO - Req was made 
-12.1.2023, 20:02:26 - DEBUG - export toys 
-12.1.2023, 20:03:30 - INFO - Req was made 
-12.1.2023, 20:03:30 - DEBUG - export toys 
-12.1.2023, 20:03:33 - INFO - Req was made 
-12.1.2023, 20:03:33 - DEBUG - export toys 
-12.1.2023, 20:03:34 - INFO - Req was made 
-12.1.2023, 20:03:34 - DEBUG - export toys 
-12.1.2023, 20:06:14 - INFO - Req was made 
-12.1.2023, 20:06:14 - DEBUG - export toys 
-12.1.2023, 20:06:16 - DEBUG - export toys 
-12.1.2023, 20:06:16 - INFO - Req was made 
-12.1.2023, 20:06:16 - INFO - Req was made 
-12.1.2023, 20:06:16 - DEBUG - export toys 
-12.1.2023, 20:06:18 - INFO - Req was made 
-12.1.2023, 20:06:18 - DEBUG - export toys 
-12.1.2023, 20:06:22 - INFO - Req was made 
-12.1.2023, 20:06:22 - DEBUG - export toys 
-12.1.2023, 20:06:22 - INFO - Req was made 
-12.1.2023, 20:06:22 - DEBUG - export toys 
-12.1.2023, 20:06:24 - INFO - Req was made 
-12.1.2023, 20:06:24 - DEBUG - export toys 
-12.1.2023, 20:06:24 - INFO - Req was made 
-12.1.2023, 20:06:24 - DEBUG - export toys 
-12.1.2023, 20:06:33 - INFO - Req was made 
-12.1.2023, 20:06:33 - DEBUG - export toys 
-12.1.2023, 20:06:49 - INFO - Req was made 
-12.1.2023, 20:06:49 - DEBUG - export toys 
+
+15.1.2023, 20:00:05 - INFO - Req was made 
+15.1.2023, 20:00:06 - INFO - Req was made 
+15.1.2023, 20:00:06 - INFO - Req was made 
+15.1.2023, 20:00:06 - INFO - Req was made 
+15.1.2023, 20:00:06 - INFO - Req was made 
+15.1.2023, 20:00:07 - INFO - Req was made 
+15.1.2023, 20:00:07 - INFO - Req was made 
+15.1.2023, 20:00:07 - INFO - Req was made 
+15.1.2023, 20:00:07 - INFO - Req was made 
+15.1.2023, 20:00:07 - INFO - Req was made 
+15.1.2023, 20:00:08 - INFO - Req was made 
+15.1.2023, 20:00:08 - INFO - Req was made 
+15.1.2023, 20:00:08 - INFO - Req was made 
+15.1.2023, 20:00:08 - INFO - Req was made 
+15.1.2023, 20:00:08 - INFO - Req was made 
+15.1.2023, 20:00:09 - INFO - Req was made 
+15.1.2023, 20:00:09 - INFO - Req was made 
+15.1.2023, 20:00:09 - INFO - Req was made 
+15.1.2023, 20:00:09 - INFO - Req was made 
+15.1.2023, 20:00:10 - INFO - Req was made 
+15.1.2023, 20:00:10 - INFO - Req was made 
+15.1.2023, 20:00:10 - INFO - Req was made 
+15.1.2023, 20:00:10 - INFO - Req was made 
+15.1.2023, 20:00:10 - INFO - Req was made 
+15.1.2023, 20:00:11 - INFO - Req was made 
+15.1.2023, 20:00:11 - INFO - Req was made 
+15.1.2023, 20:00:11 - INFO - Req was made 
+15.1.2023, 20:00:11 - INFO - Req was made 
+15.1.2023, 20:00:12 - INFO - Req was made 
+15.1.2023, 20:00:12 - INFO - Req was made 
+15.1.2023, 20:00:12 - INFO - Req was made 
+15.1.2023, 20:00:12 - INFO - Req was made 
+15.1.2023, 20:00:13 - INFO - Req was made 
+15.1.2023, 20:00:17 - INFO - Req was made 
+15.1.2023, 20:00:48 - INFO - Req was made 
+15.1.2023, 20:00:51 - INFO - Req was made 
+15.1.2023, 20:01:28 - INFO - Req was made 
+15.1.2023, 20:02:06 - INFO - Req was made 
+15.1.2023, 20:02:55 - INFO - Req was made 
+15.1.2023, 20:02:58 - INFO - Req was made 
+15.1.2023, 20:03:01 - INFO - Req was made 
+15.1.2023, 20:03:46 - INFO - Req was made 
+15.1.2023, 20:03:48 - INFO - Req was made 
+15.1.2023, 20:04:06 - INFO - Req was made 
+15.1.2023, 20:04:09 - INFO - Req was made 
+15.1.2023, 20:04:11 - INFO - Req was made 
+15.1.2023, 20:04:13 - INFO - Req was made 
+15.1.2023, 20:04:16 - INFO - Req was made 
+15.1.2023, 20:04:22 - INFO - Req was made 
+15.1.2023, 20:05:10 - INFO - Req was made 
+15.1.2023, 20:05:16 - INFO - Req was made 
+15.1.2023, 20:05:16 - INFO - Req was made 
+15.1.2023, 20:05:16 - DEBUG - export toys 
+15.1.2023, 20:05:17 - INFO - Req was made 
+15.1.2023, 20:05:17 - DEBUG - export toys 
+15.1.2023, 20:05:17 - INFO - Req was made 
+15.1.2023, 20:05:20 - INFO - Req was made 
+15.1.2023, 20:05:54 - INFO - Req was made 
+15.1.2023, 20:05:55 - INFO - Req was made 
+15.1.2023, 20:05:57 - INFO - Req was made 
+15.1.2023, 20:06:02 - INFO - Req was made 
+15.1.2023, 20:06:05 - INFO - Req was made 
+15.1.2023, 20:06:12 - INFO - Req was made 
+15.1.2023, 20:06:15 - INFO - Req was made 
+15.1.2023, 20:06:17 - INFO - Req was made 
+15.1.2023, 20:06:27 - INFO - Req was made 
+15.1.2023, 20:06:45 - INFO - Req was made 
+15.1.2023, 20:06:50 - INFO - Req was made 
+15.1.2023, 20:06:51 - INFO - Req was made 
+15.1.2023, 20:08:32 - INFO - Req was made 
+15.1.2023, 20:08:33 - INFO - Req was made 
+15.1.2023, 20:08:33 - DEBUG - export toys 
+15.1.2023, 20:08:34 - INFO - Req was made 
+15.1.2023, 20:08:34 - DEBUG - export toys 
+15.1.2023, 20:08:35 - INFO - Req was made 
+15.1.2023, 20:08:37 - INFO - Req was made 
+15.1.2023, 20:08:38 - INFO - Req was made 
+15.1.2023, 20:08:38 - DEBUG - export toys 
+15.1.2023, 20:08:38 - INFO - Req was made 
+15.1.2023, 20:08:38 - DEBUG - export toys 
+15.1.2023, 20:08:39 - INFO - Req was made 
+15.1.2023, 20:08:40 - INFO - Req was made 
+15.1.2023, 20:08:40 - DEBUG - export toys 
+15.1.2023, 20:08:41 - INFO - Req was made 
+15.1.2023, 20:08:41 - DEBUG - export toys 
+15.1.2023, 20:08:42 - INFO - Req was made 
+15.1.2023, 20:08:45 - INFO - Req was made 
+15.1.2023, 20:08:47 - INFO - Req was made 
+15.1.2023, 20:08:49 - INFO - Req was made 
+15.1.2023, 20:08:56 - INFO - Req was made 
+15.1.2023, 20:08:56 - DEBUG - export toys 
+15.1.2023, 20:08:56 - INFO - Req was made 
+15.1.2023, 20:08:56 - DEBUG - export toys 
+15.1.2023, 20:08:57 - INFO - Req was made 
+15.1.2023, 20:13:58 - INFO - Req was made 
+15.1.2023, 20:13:58 - DEBUG - export toys 
+15.1.2023, 20:13:59 - INFO - Req was made 
+15.1.2023, 20:13:59 - DEBUG - export toys 
+15.1.2023, 20:14:03 - INFO - Req was made 
+15.1.2023, 20:14:03 - DEBUG - export toys 
+15.1.2023, 20:14:03 - INFO - Req was made 
+15.1.2023, 20:14:03 - DEBUG - export toys 
+15.1.2023, 20:14:05 - INFO - Req was made 
+15.1.2023, 20:14:12 - INFO - Req was made 
+15.1.2023, 20:14:16 - INFO - Req was made 
+15.1.2023, 20:15:06 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+15.1.2023, 20:15:06 - DEBUG - auth.service: justUser25 
+15.1.2023, 20:15:06 - INFO - User login | {"_id":"63c16c700395388ec8d07a73","fullname":"Just user","username":"justUser25","password":123,"isAdmin":false} 
+15.1.2023, 20:15:08 - INFO - Req was made 
+15.1.2023, 20:15:08 - DEBUG - export toys 
+15.1.2023, 20:15:08 - INFO - Req was made 
+15.1.2023, 20:15:08 - DEBUG - export toys 
+15.1.2023, 20:15:08 - INFO - Req was made 
+15.1.2023, 20:15:09 - INFO - Req was made 
+15.1.2023, 20:15:09 - DEBUG - export toys 
+15.1.2023, 20:15:09 - INFO - Req was made 
+15.1.2023, 20:15:09 - DEBUG - export toys 
+15.1.2023, 20:15:10 - INFO - Req was made 
+15.1.2023, 20:15:23 - DEBUG - auth.service: ofeka25 
+15.1.2023, 20:15:23 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+15.1.2023, 20:15:23 - INFO - User login | {"_id":"63c16c0fa75e7e52da18139d","fullname":"Ofek Ashkenazi","username":"ofeka25","password":123,"isAdmin":true} 
+15.1.2023, 20:15:25 - INFO - Req was made 
+15.1.2023, 20:15:26 - INFO - Req was made 
+15.1.2023, 20:15:26 - DEBUG - export toys 
+15.1.2023, 20:15:27 - INFO - Req was made 
+15.1.2023, 20:15:27 - DEBUG - export toys 
+15.1.2023, 20:22:55 - INFO - App listening on port 3030! 
+15.1.2023, 20:23:48 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+15.1.2023, 20:23:48 - INFO - Req was made 
+15.1.2023, 20:23:49 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+15.1.2023, 20:23:49 - DEBUG - export toys 
+15.1.2023, 20:23:49 - INFO - Req was made 
+15.1.2023, 20:23:49 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+15.1.2023, 20:23:49 - INFO - Req was made 
+15.1.2023, 20:23:49 - DEBUG - export toys 
+15.1.2023, 20:23:50 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+15.1.2023, 20:23:50 - INFO - Req was made 
+15.1.2023, 20:23:54 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+15.1.2023, 20:23:54 - DEBUG - export toys 
+15.1.2023, 20:23:54 - INFO - Req was made 
+15.1.2023, 20:23:55 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+15.1.2023, 20:23:55 - INFO - Req was made 
+15.1.2023, 20:23:55 - DEBUG - export toys 
+15.1.2023, 20:23:55 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+15.1.2023, 20:23:55 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+15.1.2023, 20:23:55 - INFO - Req was made 
+15.1.2023, 20:24:00 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+15.1.2023, 20:24:00 - ERROR - cannot insert review | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer 
+15.1.2023, 20:24:00 - INFO - Req was made 
+15.1.2023, 20:24:00 - ERROR - Failed to add review | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer 
+15.1.2023, 20:24:03 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+15.1.2023, 20:24:03 - INFO - Req was made 
+15.1.2023, 20:24:04 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+15.1.2023, 20:24:04 - INFO - Req was made 
+15.1.2023, 20:24:04 - DEBUG - export toys 
+15.1.2023, 20:24:04 - INFO - Req was made 
+15.1.2023, 20:24:04 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+15.1.2023, 20:24:04 - DEBUG - export toys 
+15.1.2023, 20:24:05 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+15.1.2023, 20:24:05 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+15.1.2023, 20:24:05 - INFO - Req was made 
+15.1.2023, 20:42:46 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+15.1.2023, 20:42:46 - DEBUG - auth.service: ofeka25 
+15.1.2023, 20:42:46 - INFO - User login | {"_id":"63c16c0fa75e7e52da18139d","fullname":"Ofek Ashkenazi","username":"ofeka25","password":123,"isAdmin":true} 
+15.1.2023, 20:46:44 - INFO - Req was made 
+15.1.2023, 20:47:10 - INFO - Req was made 
+15.1.2023, 20:47:14 - INFO - Req was made 
+15.1.2023, 20:47:20 - INFO - Req was made 
+15.1.2023, 20:52:25 - INFO - Req was made 
+15.1.2023, 20:52:29 - INFO - Req was made 
+15.1.2023, 20:52:33 - INFO - Req was made 
+15.1.2023, 20:52:41 - INFO - Req was made 
+15.1.2023, 20:52:45 - INFO - Req was made 
+15.1.2023, 20:53:35 - INFO - Req was made 
+15.1.2023, 20:54:40 - INFO - Req was made 
+15.1.2023, 20:54:45 - INFO - Req was made 
+15.1.2023, 20:55:24 - INFO - Req was made 
+15.1.2023, 20:55:54 - INFO - Req was made 
+15.1.2023, 20:56:06 - INFO - Req was made 
+15.1.2023, 20:56:08 - INFO - Req was made 
+15.1.2023, 20:56:08 - DEBUG - export toys 
+15.1.2023, 20:56:08 - INFO - Req was made 
+15.1.2023, 20:56:08 - DEBUG - export toys 
+15.1.2023, 20:56:09 - INFO - Req was made 
+15.1.2023, 20:56:20 - INFO - Req was made 
+15.1.2023, 20:56:21 - INFO - Req was made 
+15.1.2023, 20:56:23 - INFO - Req was made 
+15.1.2023, 20:56:24 - INFO - Req was made 
+15.1.2023, 20:56:26 - INFO - Req was made 
+15.1.2023, 20:56:26 - DEBUG - export toys 
+15.1.2023, 20:56:27 - INFO - Req was made 
+15.1.2023, 20:56:27 - DEBUG - export toys 
+15.1.2023, 20:56:27 - INFO - Req was made 
+15.1.2023, 20:56:28 - INFO - Req was made 
+15.1.2023, 20:56:49 - INFO - Req was made 
+15.1.2023, 20:59:10 - INFO - Req was made 
+15.1.2023, 21:00:34 - INFO - Req was made 
+15.1.2023, 21:00:34 - DEBUG - export toys 
+15.1.2023, 21:00:34 - INFO - Req was made 
+15.1.2023, 21:00:34 - DEBUG - export toys 
+15.1.2023, 21:00:38 - INFO - Req was made 
+15.1.2023, 21:00:46 - INFO - Req was made 
+15.1.2023, 21:00:46 - DEBUG - export toys 
+15.1.2023, 21:00:46 - INFO - Req was made 
+15.1.2023, 21:00:46 - DEBUG - export toys 
+15.1.2023, 21:00:48 - INFO - Req was made 
+15.1.2023, 21:00:51 - INFO - Req was made 
+15.1.2023, 21:01:44 - INFO - Req was made 
+15.1.2023, 21:03:26 - INFO - Req was made 
+15.1.2023, 21:03:29 - INFO - Req was made 
+15.1.2023, 21:03:29 - DEBUG - export toys 
+15.1.2023, 21:03:29 - INFO - Req was made 
+15.1.2023, 21:03:29 - DEBUG - export toys 
+15.1.2023, 21:03:31 - INFO - Req was made 
+15.1.2023, 21:03:38 - INFO - Req was made 
+15.1.2023, 21:03:39 - INFO - Req was made 
+15.1.2023, 21:03:41 - INFO - Req was made 
+15.1.2023, 21:03:42 - INFO - Req was made 
+15.1.2023, 21:03:43 - INFO - Req was made 
+15.1.2023, 21:04:36 - INFO - Req was made 
+15.1.2023, 21:04:44 - INFO - Req was made 
+15.1.2023, 21:04:48 - INFO - Req was made 
+15.1.2023, 21:04:49 - INFO - Req was made 
+15.1.2023, 21:04:49 - DEBUG - export toys 
+15.1.2023, 21:04:49 - INFO - Req was made 
+15.1.2023, 21:04:49 - DEBUG - export toys 
+15.1.2023, 21:04:50 - INFO - Req was made 
+15.1.2023, 21:04:51 - INFO - Req was made 
+15.1.2023, 21:04:51 - INFO - Req was made 
+15.1.2023, 21:04:51 - DEBUG - export toys 
+15.1.2023, 21:04:52 - INFO - Req was made 
+15.1.2023, 21:04:52 - DEBUG - export toys 
+15.1.2023, 21:04:52 - INFO - Req was made 
+15.1.2023, 21:04:57 - INFO - Req was made 
+15.1.2023, 21:05:02 - INFO - Req was made 
+15.1.2023, 21:05:02 - DEBUG - export toys 
+15.1.2023, 21:05:02 - INFO - Req was made 
+15.1.2023, 21:05:02 - DEBUG - export toys 
+15.1.2023, 21:05:26 - INFO - Req was made 
+15.1.2023, 21:06:15 - INFO - Req was made 
+15.1.2023, 21:06:50 - INFO - Req was made 
+15.1.2023, 21:06:50 - DEBUG - export toys 
+15.1.2023, 21:06:50 - INFO - Req was made 
+15.1.2023, 21:06:50 - DEBUG - export toys 
+15.1.2023, 21:06:53 - INFO - Req was made 
+15.1.2023, 21:07:16 - DEBUG - export toys 
+15.1.2023, 21:07:16 - INFO - Req was made 
+15.1.2023, 21:07:17 - INFO - Req was made 
+15.1.2023, 21:07:17 - DEBUG - export toys 
+15.1.2023, 21:07:20 - INFO - Req was made 
+15.1.2023, 21:07:24 - INFO - Req was made 
+15.1.2023, 21:07:26 - INFO - Req was made 
+15.1.2023, 21:07:26 - DEBUG - export toys 
+15.1.2023, 21:07:27 - INFO - Req was made 
+15.1.2023, 21:07:27 - DEBUG - export toys 
+15.1.2023, 21:07:27 - INFO - Req was made 
+15.1.2023, 21:07:33 - INFO - Req was made 
+15.1.2023, 21:08:26 - INFO - Req was made 
+15.1.2023, 21:08:26 - DEBUG - export toys 
+15.1.2023, 21:08:27 - INFO - Req was made 
+15.1.2023, 21:08:27 - DEBUG - export toys 
+15.1.2023, 21:08:28 - INFO - Req was made 
+15.1.2023, 21:08:31 - INFO - Req was made 
+15.1.2023, 21:08:31 - DEBUG - export toys 
+15.1.2023, 21:08:31 - INFO - Req was made 
+15.1.2023, 21:08:31 - DEBUG - export toys 
+15.1.2023, 21:08:32 - INFO - Req was made 
+15.1.2023, 21:08:40 - INFO - Req was made 
+15.1.2023, 21:09:33 - INFO - Req was made 
+15.1.2023, 21:09:34 - INFO - Req was made 
+15.1.2023, 21:09:34 - DEBUG - export toys 
+15.1.2023, 21:09:34 - INFO - Req was made 
+15.1.2023, 21:09:34 - DEBUG - export toys 
+15.1.2023, 21:10:06 - INFO - Req was made 
+15.1.2023, 21:14:48 - INFO - Req was made 
+15.1.2023, 21:14:50 - INFO - Req was made 
+15.1.2023, 21:14:53 - INFO - Req was made 
+15.1.2023, 21:14:53 - DEBUG - export toys 
+15.1.2023, 21:14:54 - INFO - Req was made 
+15.1.2023, 21:14:54 - DEBUG - export toys 
+15.1.2023, 21:15:00 - INFO - Req was made 
+15.1.2023, 21:15:01 - INFO - Req was made 
+15.1.2023, 21:15:02 - INFO - Req was made 
+15.1.2023, 21:15:02 - DEBUG - export toys 
+15.1.2023, 21:15:02 - INFO - Req was made 
+15.1.2023, 21:15:02 - DEBUG - export toys 
+15.1.2023, 21:15:02 - INFO - Req was made 
+15.1.2023, 21:15:06 - INFO - Req was made 
+15.1.2023, 21:15:06 - DEBUG - export toys 
+15.1.2023, 21:15:07 - INFO - Req was made 
+15.1.2023, 21:15:07 - DEBUG - export toys 
+15.1.2023, 21:15:11 - INFO - Req was made 
+15.1.2023, 21:16:09 - INFO - Req was made 
+15.1.2023, 21:16:14 - INFO - Req was made 
+15.1.2023, 21:16:18 - INFO - Req was made 
+15.1.2023, 21:17:00 - INFO - Req was made 
+15.1.2023, 21:17:05 - INFO - Req was made 
+15.1.2023, 21:17:24 - INFO - Req was made 
+16.1.2023, 13:24:57 - INFO - App listening on port 3030! 
+16.1.2023, 13:27:53 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 13:27:53 - DEBUG - auth.service: ofeka25 
+16.1.2023, 13:27:53 - INFO - User login | {"_id":"63c16c0fa75e7e52da18139d","fullname":"Ofek Ashkenazi","username":"ofeka25","password":123,"isAdmin":true} 
+16.1.2023, 13:27:53 - INFO - Req was made 
+16.1.2023, 13:32:03 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 13:32:03 - DEBUG - auth.service: ofeka25 
+16.1.2023, 13:32:03 - INFO - User login | {"_id":"63c16c0fa75e7e52da18139d","fullname":"Ofek Ashkenazi","username":"ofeka25","password":123,"isAdmin":true} 
+16.1.2023, 13:32:03 - INFO - Req was made 
+16.1.2023, 13:32:17 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 13:32:17 - DEBUG - auth.service: ofeka25 
+16.1.2023, 13:32:17 - INFO - User login | {"_id":"63c16c0fa75e7e52da18139d","fullname":"Ofek Ashkenazi","username":"ofeka25","password":123,"isAdmin":true} 
+16.1.2023, 13:32:17 - INFO - Req was made 
+16.1.2023, 13:32:22 - INFO - Req was made 
+16.1.2023, 13:32:28 - INFO - Req was made 
+16.1.2023, 13:32:31 - INFO - Req was made 
+16.1.2023, 13:32:36 - INFO - Req was made 
+16.1.2023, 13:32:52 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 13:32:52 - DEBUG - auth.service: justUser 
+16.1.2023, 13:32:52 - ERROR - Cannot login | Invalid username or password 
+16.1.2023, 13:32:54 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 13:32:54 - DEBUG - auth.service: justUser 
+16.1.2023, 13:32:54 - ERROR - Cannot login | Invalid username or password 
+16.1.2023, 13:32:59 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 13:32:59 - DEBUG - auth.service: justUser 
+16.1.2023, 13:32:59 - ERROR - Cannot login | Invalid username or password 
+16.1.2023, 13:33:05 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 13:33:05 - DEBUG - auth.service: justUser 
+16.1.2023, 13:33:05 - ERROR - Cannot login | Invalid username or password 
+16.1.2023, 13:33:06 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 13:33:06 - DEBUG - auth.service: justUser 
+16.1.2023, 13:33:06 - ERROR - Cannot login | Invalid username or password 
+16.1.2023, 13:33:15 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 13:33:15 - DEBUG - auth.service: justUser25 
+16.1.2023, 13:33:16 - INFO - User login | {"_id":"63c16c700395388ec8d07a73","fullname":"Just user","username":"justUser25","password":123,"isAdmin":false} 
+16.1.2023, 13:33:16 - INFO - Req was made 
+16.1.2023, 13:33:25 - INFO - Req was made 
+16.1.2023, 13:33:25 - DEBUG - export toys 
+16.1.2023, 13:33:25 - INFO - Req was made 
+16.1.2023, 13:33:25 - DEBUG - export toys 
+16.1.2023, 13:33:39 - INFO - Req was made 
+16.1.2023, 13:34:07 - INFO - Req was made 
+16.1.2023, 13:34:07 - INFO - Req was made 
+16.1.2023, 13:34:19 - INFO - Req was made 
+16.1.2023, 13:34:22 - INFO - Req was made 
+16.1.2023, 13:44:54 - INFO - App listening on port 3030! 
+16.1.2023, 13:44:59 - INFO - Req was made 
+16.1.2023, 13:46:22 - INFO - App listening on port 3030! 
+16.1.2023, 13:54:59 - INFO - App listening on port 3030! 
+16.1.2023, 13:55:15 - INFO - Req was made 
+16.1.2023, 13:55:15 - DEBUG - export toys 
+16.1.2023, 13:55:16 - INFO - Req was made 
+16.1.2023, 13:55:16 - DEBUG - export toys 
+16.1.2023, 13:55:16 - INFO - Req was made 
+16.1.2023, 13:55:17 - INFO - Req was made 
+16.1.2023, 13:55:17 - DEBUG - export toys 
+16.1.2023, 13:55:17 - INFO - Req was made 
+16.1.2023, 13:55:17 - DEBUG - export toys 
+16.1.2023, 14:27:39 - INFO - Req was made 
+16.1.2023, 14:27:40 - INFO - Req was made 
+16.1.2023, 14:27:41 - INFO - Req was made 
+16.1.2023, 14:27:41 - DEBUG - export toys 
+16.1.2023, 14:27:42 - INFO - Req was made 
+16.1.2023, 14:27:42 - DEBUG - export toys 
+16.1.2023, 14:29:40 - INFO - App listening on port 3030! 
+16.1.2023, 14:44:32 - INFO - App listening on port 3030! 
+16.1.2023, 14:45:13 - INFO - App listening on port 3030! 
+16.1.2023, 14:47:56 - INFO - App listening on port 3030! 
+16.1.2023, 14:59:32 - INFO - App listening on port 3030! 
+16.1.2023, 15:00:45 - INFO - App listening on port 3030! 
+16.1.2023, 15:00:46 - INFO - App listening on port 3030! 
+16.1.2023, 15:00:53 - INFO - App listening on port 3030! 
+16.1.2023, 15:04:19 - INFO - App listening on port 3030! 
+16.1.2023, 15:04:46 - INFO - App listening on port 3030! 
+16.1.2023, 15:05:02 - INFO - App listening on port 3030! 
+16.1.2023, 15:06:02 - INFO - App listening on port 3030! 
+16.1.2023, 15:06:04 - INFO - App listening on port 3030! 
+16.1.2023, 15:06:12 - INFO - Req was made 
+16.1.2023, 15:06:12 - DEBUG - export toys 
+16.1.2023, 15:06:12 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:06:12 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:06:13 - DEBUG - export toys 
+16.1.2023, 15:06:13 - INFO - Req was made 
+16.1.2023, 15:06:13 - INFO - Req was made 
+16.1.2023, 15:06:13 - DEBUG - export toys 
+16.1.2023, 15:06:13 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:06:13 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:06:14 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:06:14 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:06:14 - INFO - Req was made 
+16.1.2023, 15:06:14 - DEBUG - export toys 
+16.1.2023, 15:06:15 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:06:15 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:06:15 - INFO - Req was made 
+16.1.2023, 15:06:15 - DEBUG - export toys 
+16.1.2023, 15:06:16 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:06:16 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:06:16 - INFO - Req was made 
+16.1.2023, 15:06:16 - DEBUG - export toys 
+16.1.2023, 15:06:17 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:06:17 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:06:36 - INFO - App listening on port 3030! 
+16.1.2023, 15:06:39 - INFO - Req was made 
+16.1.2023, 15:06:39 - DEBUG - export toys 
+16.1.2023, 15:06:40 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:06:40 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:06:40 - DEBUG - export toys 
+16.1.2023, 15:06:40 - INFO - Req was made 
+16.1.2023, 15:06:40 - INFO - Req was made 
+16.1.2023, 15:06:41 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:06:41 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:06:41 - INFO - Req was made 
+16.1.2023, 15:06:41 - ERROR - Cannot get reviews | ReferenceError: logger is not defined 
+16.1.2023, 15:06:41 - ERROR - cannot find reviews | ReferenceError: logger is not defined 
+16.1.2023, 15:06:41 - DEBUG - export toys 
+16.1.2023, 15:06:42 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:06:42 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:06:42 - INFO - Req was made 
+16.1.2023, 15:06:42 - DEBUG - export toys 
+16.1.2023, 15:06:42 - INFO - Req was made 
+16.1.2023, 15:06:42 - DEBUG - export toys 
+16.1.2023, 15:06:43 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:06:43 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:06:43 - INFO - Req was made 
+16.1.2023, 15:06:43 - DEBUG - export toys 
+16.1.2023, 15:06:43 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:06:43 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:06:44 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:06:44 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:06:44 - INFO - Req was made 
+16.1.2023, 15:06:44 - DEBUG - export toys 
+16.1.2023, 15:06:45 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:06:45 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:07:29 - INFO - App listening on port 3030! 
+16.1.2023, 15:07:40 - INFO - Req was made 
+16.1.2023, 15:07:40 - DEBUG - export toys 
+16.1.2023, 15:07:41 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:07:41 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:07:41 - INFO - Req was made 
+16.1.2023, 15:07:41 - DEBUG - export toys 
+16.1.2023, 15:07:42 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:07:42 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:07:42 - DEBUG - export toys 
+16.1.2023, 15:07:42 - INFO - Req was made 
+16.1.2023, 15:07:43 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:07:43 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:07:43 - INFO - Req was made 
+16.1.2023, 15:07:43 - DEBUG - export toys 
+16.1.2023, 15:07:44 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:07:44 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:08:03 - INFO - Req was made 
+16.1.2023, 15:08:03 - DEBUG - export toys 
+16.1.2023, 15:08:03 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:08:03 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:08:03 - INFO - Req was made 
+16.1.2023, 15:08:03 - DEBUG - export toys 
+16.1.2023, 15:08:04 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:08:04 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:11:31 - INFO - App listening on port 3030! 
+16.1.2023, 15:11:41 - INFO - App listening on port 3030! 
+16.1.2023, 15:11:47 - INFO - Req was made 
+16.1.2023, 15:11:47 - DEBUG - export toys 
+16.1.2023, 15:11:47 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:11:47 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:11:48 - INFO - Req was made 
+16.1.2023, 15:11:48 - DEBUG - export toys 
+16.1.2023, 15:11:48 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:11:48 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:13:17 - INFO - App listening on port 3030! 
+16.1.2023, 15:13:22 - INFO - Req was made 
+16.1.2023, 15:13:22 - DEBUG - export toys 
+16.1.2023, 15:13:23 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:13:23 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:13:23 - INFO - Req was made 
+16.1.2023, 15:13:23 - DEBUG - export toys 
+16.1.2023, 15:13:24 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:13:24 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:13:27 - INFO - Req was made 
+16.1.2023, 15:13:27 - DEBUG - export toys 
+16.1.2023, 15:13:27 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:13:27 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:13:27 - INFO - Req was made 
+16.1.2023, 15:13:27 - DEBUG - export toys 
+16.1.2023, 15:13:28 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:13:28 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:17:02 - INFO - Req was made 
+16.1.2023, 15:17:02 - DEBUG - export toys 
+16.1.2023, 15:17:03 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:17:03 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:17:03 - INFO - Req was made 
+16.1.2023, 15:17:03 - DEBUG - export toys 
+16.1.2023, 15:17:03 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:17:03 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:17:04 - INFO - Req was made 
+16.1.2023, 15:17:04 - DEBUG - export toys 
+16.1.2023, 15:17:04 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:17:04 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:19:12 - INFO - Req was made 
+16.1.2023, 15:19:12 - DEBUG - export toys 
+16.1.2023, 15:19:12 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:19:12 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:19:12 - INFO - Req was made 
+16.1.2023, 15:19:12 - DEBUG - export toys 
+16.1.2023, 15:19:13 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:19:13 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:19:43 - INFO - Req was made 
+16.1.2023, 15:19:43 - DEBUG - export toys 
+16.1.2023, 15:19:44 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:19:44 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:19:44 - INFO - Req was made 
+16.1.2023, 15:19:44 - DEBUG - export toys 
+16.1.2023, 15:19:44 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:19:44 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:19:45 - INFO - Req was made 
+16.1.2023, 15:19:45 - DEBUG - export toys 
+16.1.2023, 15:19:45 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:19:45 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:20:48 - INFO - Req was made 
+16.1.2023, 15:20:48 - DEBUG - export toys 
+16.1.2023, 15:20:49 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:20:49 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:20:49 - INFO - Req was made 
+16.1.2023, 15:20:49 - DEBUG - export toys 
+16.1.2023, 15:20:50 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:20:50 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:20:50 - INFO - Req was made 
+16.1.2023, 15:20:50 - DEBUG - export toys 
+16.1.2023, 15:20:51 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:20:51 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:21:14 - INFO - Req was made 
+16.1.2023, 15:21:14 - DEBUG - export toys 
+16.1.2023, 15:21:15 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:21:15 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:21:15 - INFO - Req was made 
+16.1.2023, 15:21:15 - DEBUG - export toys 
+16.1.2023, 15:21:16 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:21:16 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:21:16 - INFO - Req was made 
+16.1.2023, 15:21:16 - DEBUG - export toys 
+16.1.2023, 15:21:17 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:21:17 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:22:12 - INFO - Req was made 
+16.1.2023, 15:22:12 - DEBUG - export toys 
+16.1.2023, 15:22:13 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:22:13 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:22:13 - INFO - Req was made 
+16.1.2023, 15:22:13 - DEBUG - export toys 
+16.1.2023, 15:22:13 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:22:13 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:22:13 - INFO - Req was made 
+16.1.2023, 15:22:13 - DEBUG - export toys 
+16.1.2023, 15:22:14 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+16.1.2023, 15:22:14 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+16.1.2023, 15:27:16 - INFO - App listening on port 3030! 
+16.1.2023, 15:28:12 - INFO - Req was made 
+16.1.2023, 15:28:12 - DEBUG - export toys 
+16.1.2023, 15:28:13 - INFO - Req was made 
+16.1.2023, 15:28:13 - DEBUG - export toys 
+16.1.2023, 15:28:13 - INFO - Req was made 
+16.1.2023, 15:28:13 - DEBUG - export toys 
+16.1.2023, 15:30:00 - INFO - Req was made 
+16.1.2023, 15:30:00 - DEBUG - export toys 
+16.1.2023, 15:30:00 - INFO - Req was made 
+16.1.2023, 15:30:00 - DEBUG - export toys 
+16.1.2023, 15:30:02 - INFO - Req was made 
+16.1.2023, 15:30:02 - DEBUG - export toys 
+16.1.2023, 15:30:03 - INFO - Req was made 
+16.1.2023, 15:30:03 - DEBUG - export toys 
+16.1.2023, 15:30:04 - INFO - Req was made 
+16.1.2023, 15:30:04 - DEBUG - export toys 
+16.1.2023, 15:30:04 - INFO - Req was made 
+16.1.2023, 15:30:04 - DEBUG - export toys 
+16.1.2023, 15:30:13 - INFO - Req was made 
+16.1.2023, 15:30:13 - DEBUG - export toys 
+16.1.2023, 15:30:13 - INFO - Req was made 
+16.1.2023, 15:30:13 - DEBUG - export toys 
+16.1.2023, 15:32:00 - INFO - App listening on port 3030! 
+16.1.2023, 15:32:03 - INFO - Req was made 
+16.1.2023, 15:32:03 - DEBUG - export toys 
+16.1.2023, 15:32:04 - INFO - Req was made 
+16.1.2023, 15:32:04 - DEBUG - export toys 
+16.1.2023, 15:35:45 - DEBUG - auth.service: ofeka25 
+16.1.2023, 15:35:45 - INFO - User login | {"_id":"63c54a1d333b740f72794d57","fullname":"Ofek Ashkenazi","username":"ofeka25","password":123,"isAdmin":true} 
+16.1.2023, 15:35:45 - INFO - Req was made 
+16.1.2023, 15:35:47 - INFO - Req was made 
+16.1.2023, 15:35:47 - DEBUG - export toys 
+16.1.2023, 15:35:48 - INFO - Req was made 
+16.1.2023, 15:35:48 - DEBUG - export toys 
+16.1.2023, 15:35:49 - INFO - Req was made 
+16.1.2023, 15:36:16 - INFO - Req was made 
+16.1.2023, 15:36:17 - INFO - Req was made 
+16.1.2023, 15:36:19 - INFO - Req was made 
+16.1.2023, 15:36:22 - INFO - Req was made 
+16.1.2023, 15:36:23 - INFO - Req was made 
+16.1.2023, 15:37:55 - INFO - App listening on port 3030! 
+16.1.2023, 16:15:59 - INFO - Req was made 
+16.1.2023, 16:15:59 - DEBUG - export toys 
+16.1.2023, 16:16:00 - DEBUG - export toys 
+16.1.2023, 16:16:00 - INFO - Req was made 
+16.1.2023, 16:16:01 - INFO - Req was made 
+16.1.2023, 16:18:17 - INFO - App listening on port 3030! 
+16.1.2023, 16:22:39 - INFO - App listening on port 3030! 
+16.1.2023, 16:23:04 - INFO - App listening on port 3030! 
+16.1.2023, 16:24:08 - INFO - App listening on port 3030! 
+16.1.2023, 16:24:17 - INFO - App listening on port 3030! 
+16.1.2023, 16:33:41 - INFO - Req was made 
+16.1.2023, 16:33:41 - DEBUG - export toys 
+16.1.2023, 16:33:42 - INFO - Req was made 
+16.1.2023, 16:33:42 - DEBUG - export toys 
+16.1.2023, 16:52:57 - INFO - New connected socket [id: qYQd4B7Ertd6jM9MAAAC] 
+16.1.2023, 16:52:57 - INFO - New connected socket [id: M2f2V6ZcEElAZgtqAAAD] 
+16.1.2023, 16:52:57 - INFO - Req was made 
+16.1.2023, 16:52:57 - DEBUG - export toys 
+16.1.2023, 16:52:58 - INFO - Setting socket.userId = 63c54a1d333b740f72794d57 for socket [id: M2f2V6ZcEElAZgtqAAAD] 
+16.1.2023, 16:53:33 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:53:36 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:53:56 - INFO - New connected socket [id: A_tdS2ochLky8abpAAAF] 
+16.1.2023, 16:53:59 - INFO - Req was made 
+16.1.2023, 16:54:00 - INFO - Req was made 
+16.1.2023, 16:54:00 - DEBUG - export toys 
+16.1.2023, 16:54:00 - INFO - Req was made 
+16.1.2023, 16:54:00 - DEBUG - export toys 
+16.1.2023, 16:54:15 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:54:15 - INFO - New connected socket [id: qvnJTKl1B9d8N9lkAAAH] 
+16.1.2023, 16:54:23 - DEBUG - auth.service: ofeka25 
+16.1.2023, 16:54:23 - INFO - User login | {"_id":"63c54a1d333b740f72794d57","fullname":"Ofek Ashkenazi","username":"ofeka25","password":123,"isAdmin":true} 
+16.1.2023, 16:54:23 - INFO - Setting socket.userId = 63c54a1d333b740f72794d57 for socket [id: qvnJTKl1B9d8N9lkAAAH] 
+16.1.2023, 16:54:23 - INFO - Req was made 
+16.1.2023, 16:55:24 - INFO - New connected socket [id: r2Rcz-IqUgz13f5BAAAJ] 
+16.1.2023, 16:55:30 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:55:30 - INFO - New connected socket [id: EqrnujFcilom_RSmAAAL] 
+16.1.2023, 16:55:40 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:55:41 - INFO - New connected socket [id: -XzjB9xOSm_6WqzcAAAN] 
+16.1.2023, 16:55:48 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:55:48 - INFO - New connected socket [id: S8rKHDAIb0sRUHf_AAAP] 
+16.1.2023, 16:55:48 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:55:49 - INFO - New connected socket [id: EOqjjoOzGETg3W4wAAAR] 
+16.1.2023, 16:57:48 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:57:48 - INFO - New connected socket [id: 1p9x9qe2Jrylr9uCAAAT] 
+16.1.2023, 16:57:53 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:57:53 - INFO - New connected socket [id: iioy1NR8MSG3gW9NAAAV] 
+16.1.2023, 16:57:54 - INFO - Setting socket.userId = 63c54a1d333b740f72794d57 for socket [id: iioy1NR8MSG3gW9NAAAV] 
+16.1.2023, 16:58:36 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:58:36 - INFO - New connected socket [id: aElDARSfeFNM4hQoAAAX] 
+16.1.2023, 16:58:41 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:58:41 - INFO - New connected socket [id: 4D4SEs5rlTfQXaaTAAAZ] 
+16.1.2023, 16:59:05 - INFO - New connected socket [id: yJ2HHBRjl1g-5i8GAAAb] 
+16.1.2023, 16:59:10 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:59:15 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:59:16 - INFO - New connected socket [id: OHz4nFPPs2lPPdK3AAAd] 
+16.1.2023, 16:59:26 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 16:59:37 - INFO - Req was made 
+16.1.2023, 16:59:38 - DEBUG - export toys 
+16.1.2023, 16:59:38 - INFO - Req was made 
+16.1.2023, 16:59:38 - INFO - Req was made 
+16.1.2023, 16:59:38 - DEBUG - export toys 
+16.1.2023, 16:59:43 - INFO - New connected socket [id: Il0oFhlFZqAF6EdCAAAf] 
+16.1.2023, 17:00:34 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:00:35 - INFO - New connected socket [id: edcEGIULyXSNSKTDAAAh] 
+16.1.2023, 17:00:47 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:01:01 - INFO - Req was made 
+16.1.2023, 17:01:01 - DEBUG - export toys 
+16.1.2023, 17:01:01 - INFO - Req was made 
+16.1.2023, 17:01:01 - DEBUG - export toys 
+16.1.2023, 17:01:14 - INFO - New connected socket [id: koiUx_b6JSZE8FbXAAAj] 
+16.1.2023, 17:01:22 - DEBUG - auth.service: ofeka25 
+16.1.2023, 17:01:22 - INFO - User login | {"_id":"63c54a1d333b740f72794d57","fullname":"Ofek Ashkenazi","username":"ofeka25","password":123,"isAdmin":true} 
+16.1.2023, 17:01:22 - INFO - Setting socket.userId = 63c54a1d333b740f72794d57 for socket [id: yJ2HHBRjl1g-5i8GAAAb] 
+16.1.2023, 17:01:22 - INFO - Req was made 
+16.1.2023, 17:01:29 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 17:01:29 - DEBUG - auth.service: justUser25 
+16.1.2023, 17:01:29 - INFO - User login | {"_id":"63c54a1d333b740f72794d58","fullname":"Just user","username":"justUser25","password":123,"isAdmin":false} 
+16.1.2023, 17:01:29 - INFO - Setting socket.userId = 63c54a1d333b740f72794d58 for socket [id: koiUx_b6JSZE8FbXAAAj] 
+16.1.2023, 17:01:29 - INFO - Req was made 
+16.1.2023, 17:01:31 - INFO - Req was made 
+16.1.2023, 17:01:31 - DEBUG - export toys 
+16.1.2023, 17:01:32 - INFO - Req was made 
+16.1.2023, 17:01:32 - DEBUG - export toys 
+16.1.2023, 17:01:32 - DEBUG - export toys 
+16.1.2023, 17:01:32 - INFO - Req was made 
+16.1.2023, 17:01:32 - INFO - Req was made 
+16.1.2023, 17:01:32 - DEBUG - export toys 
+16.1.2023, 17:01:35 - INFO - Req was made 
+16.1.2023, 17:01:38 - INFO - Req was made 
+16.1.2023, 17:01:45 - INFO - Req was made 
+16.1.2023, 17:01:45 - INFO - Req was made 
+16.1.2023, 17:01:47 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:01:47 - INFO - New connected socket [id: A_C1tih986x2DI0CAAAl] 
+16.1.2023, 17:01:47 - INFO - Req was made 
+16.1.2023, 17:01:47 - INFO - Setting socket.userId = 63c54a1d333b740f72794d58 for socket [id: A_C1tih986x2DI0CAAAl] 
+16.1.2023, 17:07:05 - INFO - Req was made 
+16.1.2023, 17:07:06 - INFO - Req was made 
+16.1.2023, 17:08:48 - INFO - Req was made 
+16.1.2023, 17:08:48 - INFO - Req was made 
+16.1.2023, 17:22:58 - INFO - Req was made 
+16.1.2023, 17:22:59 - INFO - Req was made 
+16.1.2023, 17:23:13 - INFO - Req was made 
+16.1.2023, 17:23:13 - INFO - Req was made 
+16.1.2023, 17:23:20 - INFO - Req was made 
+16.1.2023, 17:23:20 - INFO - Req was made 
+16.1.2023, 17:23:25 - INFO - Req was made 
+16.1.2023, 17:23:25 - INFO - Req was made 
+16.1.2023, 17:23:27 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:23:28 - INFO - New connected socket [id: -n5tS1BFAUoJgUaoAAAn] 
+16.1.2023, 17:23:28 - INFO - Req was made 
+16.1.2023, 17:23:28 - INFO - Setting socket.userId = 63c54a1d333b740f72794d58 for socket [id: -n5tS1BFAUoJgUaoAAAn] 
+16.1.2023, 17:24:18 - INFO - Req was made 
+16.1.2023, 17:24:18 - INFO - Req was made 
+16.1.2023, 17:24:45 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:24:46 - INFO - New connected socket [id: f5QnYP9LZHUooB7yAAAp] 
+16.1.2023, 17:24:46 - INFO - Req was made 
+16.1.2023, 17:24:46 - INFO - Setting socket.userId = 63c54a1d333b740f72794d58 for socket [id: f5QnYP9LZHUooB7yAAAp] 
+16.1.2023, 17:28:11 - INFO - Req was made 
+16.1.2023, 17:28:11 - INFO - Req was made 
+16.1.2023, 17:28:37 - INFO - Req was made 
+16.1.2023, 17:28:37 - INFO - Req was made 
+16.1.2023, 17:29:37 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:29:37 - INFO - New connected socket [id: D2SeQ7aKWtBlNp6mAAAr] 
+16.1.2023, 17:29:37 - INFO - Req was made 
+16.1.2023, 17:29:38 - INFO - Setting socket.userId = 63c54a1d333b740f72794d58 for socket [id: D2SeQ7aKWtBlNp6mAAAr] 
+16.1.2023, 17:31:08 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:31:08 - INFO - New connected socket [id: XaVZ60Vk24ayJy4sAAAt] 
+16.1.2023, 17:31:09 - INFO - Req was made 
+16.1.2023, 17:31:09 - INFO - Setting socket.userId = 63c54a1d333b740f72794d57 for socket [id: XaVZ60Vk24ayJy4sAAAt] 
+16.1.2023, 17:31:16 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:31:16 - INFO - New connected socket [id: Ij6HRy12ayhMJEH0AAAv] 
+16.1.2023, 17:31:17 - INFO - Req was made 
+16.1.2023, 17:31:17 - INFO - Setting socket.userId = 63c54a1d333b740f72794d58 for socket [id: Ij6HRy12ayhMJEH0AAAv] 
+16.1.2023, 17:31:21 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:31:22 - INFO - New connected socket [id: q8YVdLd9BDou-YDqAAAx] 
+16.1.2023, 17:31:22 - INFO - Req was made 
+16.1.2023, 17:31:22 - INFO - Setting socket.userId = 63c54a1d333b740f72794d58 for socket [id: q8YVdLd9BDou-YDqAAAx] 
+16.1.2023, 17:31:22 - INFO - Req was made 
+16.1.2023, 17:31:23 - INFO - Req was made 
+16.1.2023, 17:31:23 - DEBUG - export toys 
+16.1.2023, 17:31:23 - DEBUG - export toys 
+16.1.2023, 17:31:23 - INFO - Req was made 
+16.1.2023, 17:31:24 - INFO - Req was made 
+16.1.2023, 17:31:27 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:31:28 - INFO - New connected socket [id: --sPGhIPc0wIMKcbAAAz] 
+16.1.2023, 17:31:28 - INFO - Req was made 
+16.1.2023, 17:31:28 - INFO - Setting socket.userId = 63c54a1d333b740f72794d58 for socket [id: --sPGhIPc0wIMKcbAAAz] 
+16.1.2023, 17:31:29 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:31:30 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:31:31 - INFO - New connected socket [id: TA3YbjME2AlvfG-bAAA1] 
+16.1.2023, 17:31:31 - INFO - Req was made 
+16.1.2023, 17:31:31 - INFO - Setting socket.userId = 63c54a1d333b740f72794d57 for socket [id: TA3YbjME2AlvfG-bAAA1] 
+16.1.2023, 17:31:38 - INFO - Req was made 
+16.1.2023, 17:31:49 - INFO - New connected socket [id: sbt9ZdxhZ55Jj6jbAAA3] 
+16.1.2023, 17:31:51 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:31:55 - DEBUG - auth.service: ofeka25 
+16.1.2023, 17:31:55 - INFO - User login | {"_id":"63c54a1d333b740f72794d57","fullname":"Ofek Ashkenazi","username":"ofeka25","password":123,"isAdmin":true} 
+16.1.2023, 17:31:55 - INFO - Setting socket.userId = 63c54a1d333b740f72794d57 for socket [id: sbt9ZdxhZ55Jj6jbAAA3] 
+16.1.2023, 17:31:55 - INFO - Req was made 
+16.1.2023, 17:31:56 - INFO - Req was made 
+16.1.2023, 17:31:56 - DEBUG - export toys 
+16.1.2023, 17:31:57 - INFO - Req was made 
+16.1.2023, 17:31:57 - DEBUG - export toys 
+16.1.2023, 17:31:58 - INFO - Req was made 
+16.1.2023, 17:33:01 - INFO - Req was made 
+16.1.2023, 17:33:01 - DEBUG - export toys 
+16.1.2023, 17:33:01 - INFO - Req was made 
+16.1.2023, 17:33:01 - DEBUG - export toys 
+16.1.2023, 17:33:09 - INFO - New connected socket [id: 6SZoVNqPItD3lIkQAAA5] 
+16.1.2023, 17:33:09 - DEBUG - export toys 
+16.1.2023, 17:33:09 - INFO - Req was made 
+16.1.2023, 17:33:10 - INFO - Req was made 
+16.1.2023, 17:33:10 - DEBUG - export toys 
+16.1.2023, 17:33:11 - INFO - Req was made 
+16.1.2023, 17:33:15 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:33:15 - INFO - New connected socket [id: Tr_r75nH2NaHRsXBAAA7] 
+16.1.2023, 17:33:15 - INFO - Req was made 
+16.1.2023, 17:33:22 - DEBUG - auth.service: ofeka25 
+16.1.2023, 17:33:22 - INFO - User login | {"_id":"63c54a1d333b740f72794d57","fullname":"Ofek Ashkenazi","username":"ofeka25","password":123,"isAdmin":true} 
+16.1.2023, 17:33:22 - INFO - Setting socket.userId = 63c54a1d333b740f72794d57 for socket [id: Tr_r75nH2NaHRsXBAAA7] 
+16.1.2023, 17:33:22 - INFO - Req was made 
+16.1.2023, 17:33:23 - INFO - Req was made 
+16.1.2023, 17:33:23 - DEBUG - export toys 
+16.1.2023, 17:33:23 - INFO - Req was made 
+16.1.2023, 17:33:23 - DEBUG - export toys 
+16.1.2023, 17:33:25 - INFO - Req was made 
+16.1.2023, 17:34:00 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:34:00 - INFO - Req was made 
+16.1.2023, 17:34:02 - INFO - Req was made 
+16.1.2023, 17:34:02 - DEBUG - export toys 
+16.1.2023, 17:34:02 - INFO - Req was made 
+16.1.2023, 17:34:02 - DEBUG - export toys 
+16.1.2023, 17:34:03 - INFO - Req was made 
+16.1.2023, 17:35:45 - INFO - Req was made 
+16.1.2023, 17:36:25 - INFO - Req was made 
+16.1.2023, 17:39:29 - INFO - Req was made 
+16.1.2023, 17:40:46 - INFO - Req was made 
+16.1.2023, 17:40:56 - INFO - Req was made 
+16.1.2023, 17:40:56 - DEBUG - export toys 
+16.1.2023, 17:40:57 - INFO - Req was made 
+16.1.2023, 17:40:57 - DEBUG - export toys 
+16.1.2023, 17:40:57 - INFO - Socket is leaving topic 63c54954333b740f727816bd [id: Tr_r75nH2NaHRsXBAAA7] 
+16.1.2023, 17:40:58 - INFO - Req was made 
+16.1.2023, 17:41:13 - INFO - New chat msg from socket [id: Tr_r75nH2NaHRsXBAAA7], emitting to topic 63c54954333b740f727816c0 
+16.1.2023, 17:42:05 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:42:06 - INFO - New connected socket [id: YlDvaefFe7ZprF_cAAA9] 
+16.1.2023, 17:42:06 - INFO - Req was made 
+16.1.2023, 17:42:06 - INFO - Setting socket.userId = 63c54a1d333b740f72794d57 for socket [id: YlDvaefFe7ZprF_cAAA9] 
+16.1.2023, 17:42:09 - INFO - New chat msg from socket [id: YlDvaefFe7ZprF_cAAA9], emitting to topic 63c54954333b740f727816c0 
+16.1.2023, 17:42:20 - INFO - New chat msg from socket [id: YlDvaefFe7ZprF_cAAA9], emitting to topic 63c54954333b740f727816c0 
+16.1.2023, 17:43:54 - INFO - Req was made 
+16.1.2023, 17:43:54 - DEBUG - export toys 
+16.1.2023, 17:43:55 - INFO - Req was made 
+16.1.2023, 17:43:55 - DEBUG - export toys 
+16.1.2023, 17:43:58 - INFO - New connected socket [id: b7QPrCT9AoxjFV4xAAA_] 
+16.1.2023, 17:43:58 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 17:43:58 - DEBUG - export toys 
+16.1.2023, 17:43:58 - INFO - Req was made 
+16.1.2023, 17:43:58 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 17:43:58 - INFO - Req was made 
+16.1.2023, 17:43:58 - DEBUG - export toys 
+16.1.2023, 17:44:03 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 17:44:03 - DEBUG - auth.service: justUser25 
+16.1.2023, 17:44:03 - INFO - User login | {"_id":"63c54a1d333b740f72794d58","fullname":"Just user","username":"justUser25","password":123,"isAdmin":false} 
+16.1.2023, 17:44:03 - INFO - Setting socket.userId = 63c54a1d333b740f72794d58 for socket [id: b7QPrCT9AoxjFV4xAAA_] 
+16.1.2023, 17:44:03 - INFO - Req was made 
+16.1.2023, 17:44:06 - INFO - Socket is leaving topic 63c54954333b740f727816c0 [id: YlDvaefFe7ZprF_cAAA9] 
+16.1.2023, 17:44:06 - INFO - Req was made 
+16.1.2023, 17:44:07 - DEBUG - export toys 
+16.1.2023, 17:44:07 - INFO - Req was made 
+16.1.2023, 17:44:08 - INFO - Req was made 
+16.1.2023, 17:44:08 - DEBUG - export toys 
+16.1.2023, 17:44:08 - INFO - Req was made 
+16.1.2023, 17:44:14 - INFO - New chat msg from socket [id: YlDvaefFe7ZprF_cAAA9], emitting to topic 63c54954333b740f727816be 
+16.1.2023, 17:46:24 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 17:46:25 - INFO - New connected socket [id: UDJ7N_ZVWsSB0ktHAABB] 
+16.1.2023, 17:46:25 - INFO - Req was made 
+16.1.2023, 17:46:25 - INFO - Setting socket.userId = 63c54a1d333b740f72794d57 for socket [id: UDJ7N_ZVWsSB0ktHAABB] 
+16.1.2023, 17:46:26 - DEBUG - export toys 
+16.1.2023, 17:46:26 - INFO - Req was made 
+16.1.2023, 17:46:27 - INFO - Req was made 
+16.1.2023, 17:46:27 - DEBUG - export toys 
+16.1.2023, 17:46:30 - INFO - Req was made 
+16.1.2023, 17:46:33 - INFO - Req was made 
+16.1.2023, 17:46:33 - DEBUG - export toys 
+16.1.2023, 17:46:33 - INFO - Req was made 
+16.1.2023, 17:46:33 - DEBUG - export toys 
+16.1.2023, 17:46:34 - INFO - Socket is leaving topic 63c54954333b740f727816be [id: b7QPrCT9AoxjFV4xAAA_] 
+16.1.2023, 17:46:35 - INFO - Req was made 
+16.1.2023, 17:48:55 - INFO - Req was made 
+16.1.2023, 17:48:55 - INFO - Req was made 
+16.1.2023, 17:49:14 - INFO - Req was made 
+16.1.2023, 17:49:14 - INFO - Req was made 
+16.1.2023, 17:49:19 - INFO - Req was made 
+16.1.2023, 17:49:19 - DEBUG - export toys 
+16.1.2023, 17:49:19 - INFO - Req was made 
+16.1.2023, 17:49:19 - DEBUG - export toys 
+16.1.2023, 17:49:19 - INFO - Socket is leaving topic 63c54954333b740f727816bd [id: b7QPrCT9AoxjFV4xAAA_] 
+16.1.2023, 17:49:20 - INFO - Req was made 
+16.1.2023, 17:49:22 - INFO - New chat msg from socket [id: b7QPrCT9AoxjFV4xAAA_], emitting to topic 63c54954333b740f727816be 
+16.1.2023, 17:50:35 - DEBUG - export toys 
+16.1.2023, 17:50:35 - INFO - Req was made 
+16.1.2023, 17:50:35 - INFO - Req was made 
+16.1.2023, 17:50:35 - DEBUG - export toys 
+16.1.2023, 17:50:35 - INFO - Socket is leaving topic 63c54954333b740f727816be [id: b7QPrCT9AoxjFV4xAAA_] 
+16.1.2023, 17:50:36 - INFO - Req was made 
+16.1.2023, 17:50:37 - INFO - Req was made 
+16.1.2023, 17:50:39 - INFO - Req was made 
+16.1.2023, 17:50:40 - INFO - Req was made 
+16.1.2023, 17:50:40 - DEBUG - export toys 
+16.1.2023, 17:50:40 - INFO - Req was made 
+16.1.2023, 17:50:40 - DEBUG - export toys 
+16.1.2023, 17:50:41 - INFO - Req was made 
+16.1.2023, 17:50:42 - DEBUG - export toys 
+16.1.2023, 17:50:42 - INFO - Req was made 
+16.1.2023, 17:50:42 - INFO - Req was made 
+16.1.2023, 17:50:42 - DEBUG - export toys 
+16.1.2023, 17:50:42 - INFO - Socket is leaving topic 63c54954333b740f727816bd [id: b7QPrCT9AoxjFV4xAAA_] 
+16.1.2023, 17:50:42 - INFO - Req was made 
+16.1.2023, 17:52:32 - INFO - Req was made 
+16.1.2023, 17:52:33 - INFO - Req was made 
+16.1.2023, 17:52:54 - INFO - Req was made 
+16.1.2023, 17:52:54 - INFO - Req was made 
+16.1.2023, 17:53:46 - INFO - Req was made 
+16.1.2023, 17:53:47 - INFO - Req was made 
+16.1.2023, 17:53:58 - INFO - New chat msg from socket [id: b7QPrCT9AoxjFV4xAAA_], emitting to topic 63c54954333b740f727816be 
+16.1.2023, 17:56:33 - INFO - App listening on port 3030! 
+16.1.2023, 17:56:34 - INFO - New connected socket [id: Vxor5WX2Zhu6qMDqAAAB] 
+16.1.2023, 17:56:34 - INFO - New connected socket [id: hP68i-V73i8hSd2vAAAD] 
+16.1.2023, 17:56:59 - INFO - New chat msg from socket [id: Vxor5WX2Zhu6qMDqAAAB], emitting to topic undefined 
+16.1.2023, 17:59:23 - INFO - Req was made 
+16.1.2023, 17:59:24 - INFO - Req was made 
+16.1.2023, 18:01:15 - INFO - Req was made 
+16.1.2023, 18:01:16 - INFO - Req was made 
+16.1.2023, 18:05:49 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:05:49 - INFO - New connected socket [id: 8SdUfvCvURz9fttEAAAF] 
+16.1.2023, 18:05:50 - INFO - Req was made 
+16.1.2023, 18:05:50 - INFO - Setting socket.userId = 63c54a1d333b740f72794d58 for socket [id: 8SdUfvCvURz9fttEAAAF] 
+16.1.2023, 18:05:57 - INFO - New chat msg from socket [id: 8SdUfvCvURz9fttEAAAF], emitting to topic 63c54954333b740f727816be 
+16.1.2023, 18:06:06 - INFO - Req was made 
+16.1.2023, 18:06:07 - INFO - Req was made 
+16.1.2023, 18:06:09 - INFO - Req was made 
+16.1.2023, 18:06:09 - DEBUG - export toys 
+16.1.2023, 18:06:09 - INFO - Req was made 
+16.1.2023, 18:06:09 - DEBUG - export toys 
+16.1.2023, 18:06:09 - INFO - Req was made 
+16.1.2023, 18:06:09 - DEBUG - export toys 
+16.1.2023, 18:06:10 - INFO - Req was made 
+16.1.2023, 18:06:10 - DEBUG - export toys 
+16.1.2023, 18:06:11 - INFO - Socket is leaving topic 63c54954333b740f727816be [id: 8SdUfvCvURz9fttEAAAF] 
+16.1.2023, 18:06:11 - INFO - Req was made 
+16.1.2023, 18:06:12 - INFO - Socket is leaving topic 63c54954333b740f727816be [id: hP68i-V73i8hSd2vAAAD] 
+16.1.2023, 18:06:13 - INFO - Req was made 
+16.1.2023, 18:06:17 - INFO - New chat msg from socket [id: hP68i-V73i8hSd2vAAAD], emitting to topic 63c54954333b740f727816c2 
+16.1.2023, 18:06:26 - INFO - New chat msg from socket [id: 8SdUfvCvURz9fttEAAAF], emitting to topic 63c54954333b740f727816c2 
+16.1.2023, 18:12:03 - INFO - Req was made 
+16.1.2023, 18:12:03 - DEBUG - export toys 
+16.1.2023, 18:12:04 - DEBUG - export toys 
+16.1.2023, 18:12:04 - INFO - Req was made 
+16.1.2023, 18:12:05 - INFO - Socket is leaving topic 63c54954333b740f727816c2 [id: 8SdUfvCvURz9fttEAAAF] 
+16.1.2023, 18:12:05 - INFO - Req was made 
+16.1.2023, 18:12:14 - INFO - Req was made 
+16.1.2023, 18:12:14 - DEBUG - export toys 
+16.1.2023, 18:12:15 - INFO - Req was made 
+16.1.2023, 18:12:15 - DEBUG - export toys 
+16.1.2023, 18:12:17 - INFO - Socket is leaving topic 63c54954333b740f727816bd [id: 8SdUfvCvURz9fttEAAAF] 
+16.1.2023, 18:12:17 - INFO - Req was made 
+16.1.2023, 18:18:48 - INFO - Req was made 
+16.1.2023, 18:18:51 - INFO - Req was made 
+16.1.2023, 18:18:51 - DEBUG - export toys 
+16.1.2023, 18:18:51 - DEBUG - export toys 
+16.1.2023, 18:18:51 - INFO - Req was made 
+16.1.2023, 18:18:53 - INFO - Req was made 
+16.1.2023, 18:18:55 - INFO - Req was made 
+16.1.2023, 18:18:56 - INFO - Req was made 
+16.1.2023, 18:18:56 - DEBUG - export toys 
+16.1.2023, 18:18:56 - INFO - Req was made 
+16.1.2023, 18:18:56 - DEBUG - export toys 
+16.1.2023, 18:18:57 - INFO - Req was made 
+16.1.2023, 18:18:59 - INFO - Req was made 
+16.1.2023, 18:18:59 - DEBUG - export toys 
+16.1.2023, 18:19:00 - INFO - Req was made 
+16.1.2023, 18:19:00 - DEBUG - export toys 
+16.1.2023, 18:19:00 - INFO - Req was made 
+16.1.2023, 18:19:03 - INFO - Req was made 
+16.1.2023, 18:19:04 - INFO - Req was made 
+16.1.2023, 18:19:05 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 18:19:06 - INFO - New connected socket [id: TDnjUBnx1YixCApjAAAH] 
+16.1.2023, 18:19:06 - INFO - Req was made 
+16.1.2023, 18:19:06 - INFO - Setting socket.userId = 63c54a1d333b740f72794d58 for socket [id: TDnjUBnx1YixCApjAAAH] 
+16.1.2023, 18:19:07 - DEBUG - export toys 
+16.1.2023, 18:19:07 - INFO - Req was made 
+16.1.2023, 18:19:08 - INFO - Req was made 
+16.1.2023, 18:19:08 - DEBUG - export toys 
+16.1.2023, 18:19:08 - INFO - Req was made 
+16.1.2023, 18:28:36 - INFO - New connected socket [id: TNFwqKs3ILzlp0KSAAAK] 
+16.1.2023, 18:28:36 - INFO - New connected socket [id: 4js3V590rtVbYh9VAAAL] 
+16.1.2023, 18:28:36 - INFO - Req was made 
+16.1.2023, 18:28:36 - INFO - Req was made 
+16.1.2023, 18:28:36 - INFO - Setting socket.userId = 63c54a1d333b740f72794d58 for socket [id: 4js3V590rtVbYh9VAAAL] 
+16.1.2023, 18:28:36 - INFO - Setting socket.userId = 63c54a1d333b740f72794d57 for socket [id: TNFwqKs3ILzlp0KSAAAK] 
+16.1.2023, 18:29:37 - INFO - Req was made 
+16.1.2023, 18:29:37 - INFO - Req was made 
+16.1.2023, 19:15:31 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:15:31 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:15:31 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:15:31 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:33:23 - INFO - New connected socket [id: ZNdUhoqPrAmNpWq0AAAQ] 
+16.1.2023, 19:33:23 - INFO - New connected socket [id: RgSnvxQdYogPS5s2AAAR] 
+16.1.2023, 19:33:23 - INFO - New connected socket [id: aEfV4KRtJ85F_bGVAAAS] 
+16.1.2023, 19:33:23 - INFO - New connected socket [id: IsmUc3aJ_x0O1K0uAAAT] 
+16.1.2023, 19:34:11 - INFO - Req was made 
+16.1.2023, 19:34:11 - INFO - Req was made 
+16.1.2023, 19:40:06 - INFO - Req was made 
+16.1.2023, 19:41:09 - INFO - Req was made 
+16.1.2023, 19:41:35 - INFO - Req was made 
+16.1.2023, 19:43:16 - INFO - Req was made 
+16.1.2023, 19:43:42 - INFO - Req was made 
+16.1.2023, 19:43:53 - INFO - Req was made 
+16.1.2023, 19:46:21 - INFO - Removing socket.userId for socket [id: RgSnvxQdYogPS5s2AAAR] 
+16.1.2023, 19:46:33 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 19:46:33 - DEBUG - auth service 
+16.1.2023, 19:46:33 - DEBUG - new user :)[object Object] 
+16.1.2023, 19:46:33 - DEBUG - auth.service: kobi 
+16.1.2023, 19:46:33 - INFO - User login | {"_id":"63c58d797b11f02eebe128e5","username":"kobi","password":"$2b$10$F/p5x5.bRT1tnykXcFKGZea8.sUY0H5qL/HwP3ROkO3F4MyrkGvOu","fullname":"123"} 
+16.1.2023, 19:46:33 - INFO - Setting socket.userId = 63c58d797b11f02eebe128e5 for socket [id: RgSnvxQdYogPS5s2AAAR] 
+16.1.2023, 19:46:33 - INFO - Req was made 
+16.1.2023, 19:47:48 - INFO - Removing socket.userId for socket [id: RgSnvxQdYogPS5s2AAAR] 
+16.1.2023, 19:47:56 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 19:47:56 - DEBUG - auth service 
+16.1.2023, 19:47:56 - DEBUG - new user :)[object Object] 
+16.1.2023, 19:47:56 - DEBUG - auth.service: kobi 
+16.1.2023, 19:47:56 - INFO - User login | {"_id":"63c58d797b11f02eebe128e5","username":"kobi","password":"$2b$10$F/p5x5.bRT1tnykXcFKGZea8.sUY0H5qL/HwP3ROkO3F4MyrkGvOu","fullname":"123"} 
+16.1.2023, 19:47:56 - INFO - Setting socket.userId = 63c58d797b11f02eebe128e5 for socket [id: RgSnvxQdYogPS5s2AAAR] 
+16.1.2023, 19:47:56 - INFO - Req was made 
+16.1.2023, 19:50:41 - INFO - Removing socket.userId for socket [id: RgSnvxQdYogPS5s2AAAR] 
+16.1.2023, 19:50:43 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:50:43 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:50:50 - INFO - Req was made 
+16.1.2023, 19:50:51 - INFO - Removing socket.userId for socket [id: IsmUc3aJ_x0O1K0uAAAT] 
+16.1.2023, 19:52:19 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 19:52:19 - INFO - Req was made 
+16.1.2023, 19:52:27 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 19:52:27 - INFO - Removing socket.userId for socket [id: IsmUc3aJ_x0O1K0uAAAT] 
+16.1.2023, 19:53:28 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 19:53:28 - DEBUG - auth service 
+16.1.2023, 19:53:28 - DEBUG - new user :)[object Object] 
+16.1.2023, 19:53:28 - DEBUG - auth.service: kobi 
+16.1.2023, 19:53:28 - INFO - User login | {"_id":"63c58d797b11f02eebe128e5","username":"kobi","password":"$2b$10$F/p5x5.bRT1tnykXcFKGZea8.sUY0H5qL/HwP3ROkO3F4MyrkGvOu","fullname":"123"} 
+16.1.2023, 19:53:28 - INFO - Setting socket.userId = 63c58d797b11f02eebe128e5 for socket [id: IsmUc3aJ_x0O1K0uAAAT] 
+16.1.2023, 19:53:28 - INFO - Req was made 
+16.1.2023, 19:54:55 - INFO - App listening on port 3030! 
+16.1.2023, 19:54:55 - INFO - New connected socket [id: Vo11ZwDkGQNqNCDRAAAB] 
+16.1.2023, 19:54:55 - INFO - New connected socket [id: w4bO6q8UdZaDa_0IAAAD] 
+16.1.2023, 19:54:56 - INFO - Removing socket.userId for socket [id: w4bO6q8UdZaDa_0IAAAD] 
+16.1.2023, 19:55:05 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 19:55:05 - DEBUG - auth service 
+16.1.2023, 19:55:06 - DEBUG - new user :)[object Object] 
+16.1.2023, 19:55:06 - DEBUG - auth.service: kobi 
+16.1.2023, 19:55:06 - INFO - User login | {"_id":"63c58d797b11f02eebe128e5","username":"kobi","password":"$2b$10$F/p5x5.bRT1tnykXcFKGZea8.sUY0H5qL/HwP3ROkO3F4MyrkGvOu","fullname":"123"} 
+16.1.2023, 19:55:06 - INFO - Setting socket.userId = 63c58d797b11f02eebe128e5 for socket [id: w4bO6q8UdZaDa_0IAAAD] 
+16.1.2023, 19:55:06 - INFO - Req was made 
+16.1.2023, 19:56:06 - INFO - App listening on port 3030! 
+16.1.2023, 19:56:06 - INFO - New connected socket [id: rjaA_Axlpc3I8fCfAAAB] 
+16.1.2023, 19:56:06 - INFO - New connected socket [id: eXQTmoSHkF4N3_tyAAAD] 
+16.1.2023, 19:57:40 - INFO - App listening on port 3030! 
+16.1.2023, 19:57:40 - INFO - New connected socket [id: xOJ0YRGTmXk0yTOXAAAB] 
+16.1.2023, 19:57:41 - INFO - New connected socket [id: lug0kDL-jufQNu_qAAAD] 
+16.1.2023, 19:57:54 - INFO - Removing socket.userId for socket [id: lug0kDL-jufQNu_qAAAD] 
+16.1.2023, 19:58:03 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 19:58:03 - DEBUG - auth service 
+16.1.2023, 19:58:04 - DEBUG - new user :)[object Object] 
+16.1.2023, 19:58:04 - DEBUG - auth.service: ofeka18 
+16.1.2023, 19:58:05 - INFO - User login | {"_id":"63c5902cf8523268fcabdf4e","username":"ofeka18","password":"$2b$10$01Xk0vWkp9E36xv3EzmF6u8b.H.EXyMjePenIDPfTOFQYIo5k5B5C","fullname":"ofekaa"} 
+16.1.2023, 19:58:05 - INFO - Setting socket.userId = 63c5902cf8523268fcabdf4e for socket [id: lug0kDL-jufQNu_qAAAD] 
+16.1.2023, 19:58:05 - INFO - Req was made 
+16.1.2023, 19:59:15 - INFO - Removing socket.userId for socket [id: lug0kDL-jufQNu_qAAAD] 
+16.1.2023, 19:59:19 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 19:59:19 - DEBUG - auth.service: ofeka25 
+16.1.2023, 19:59:19 - INFO - User login | {"_id":"63c54a1d333b740f72794d57","fullname":"Ofek Ashkenazi","username":"ofeka25","password":123,"isAdmin":true} 
+16.1.2023, 19:59:19 - INFO - Setting socket.userId = 63c54a1d333b740f72794d57 for socket [id: lug0kDL-jufQNu_qAAAD] 
+16.1.2023, 19:59:19 - INFO - Req was made 
+16.1.2023, 19:59:22 - INFO - Req was made 
+16.1.2023, 19:59:23 - INFO - Req was made 
+16.1.2023, 19:59:23 - DEBUG - export toys 
+16.1.2023, 19:59:24 - INFO - Req was made 
+16.1.2023, 19:59:24 - DEBUG - export toys 
+16.1.2023, 19:59:25 - INFO - Req was made 
+16.1.2023, 19:59:27 - INFO - Req was made 
+16.1.2023, 19:59:27 - DEBUG - export toys 
+16.1.2023, 19:59:27 - INFO - Req was made 
+16.1.2023, 19:59:27 - DEBUG - export toys 
+16.1.2023, 19:59:34 - INFO - Req was made 
+16.1.2023, 19:59:34 - DEBUG - export toys 
+16.1.2023, 19:59:34 - INFO - Req was made 
+16.1.2023, 19:59:34 - DEBUG - export toys 
+16.1.2023, 19:59:55 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:59:55 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:59:55 - INFO - New connected socket [id: yXkXWtqA13mWbUUFAAAF] 
+16.1.2023, 19:59:56 - INFO - Req was made 
+16.1.2023, 19:59:56 - DEBUG - export toys 
+16.1.2023, 19:59:56 - INFO - Req was made 
+16.1.2023, 19:59:56 - DEBUG - export toys 
+16.1.2023, 19:59:56 - INFO - Setting socket.userId = 63c54a1d333b740f72794d57 for socket [id: yXkXWtqA13mWbUUFAAAF] 
+16.1.2023, 20:00:19 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:00:20 - INFO - New connected socket [id: JDe9d9XTZpwOnuGEAAAH] 
+16.1.2023, 20:00:20 - INFO - Req was made 
+16.1.2023, 20:00:20 - DEBUG - export toys 
+16.1.2023, 20:00:20 - INFO - Req was made 
+16.1.2023, 20:00:20 - DEBUG - export toys 
+16.1.2023, 20:00:20 - INFO - Setting socket.userId = 63c54a1d333b740f72794d57 for socket [id: JDe9d9XTZpwOnuGEAAAH] 
+16.1.2023, 20:00:22 - INFO - Removing socket.userId for socket [id: JDe9d9XTZpwOnuGEAAAH] 
+16.1.2023, 20:00:24 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:00:25 - INFO - New connected socket [id: mLwpK9BxMq4iOmuvAAAJ] 
+16.1.2023, 20:00:25 - INFO - Req was made 
+16.1.2023, 20:00:25 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:00:25 - DEBUG - export toys 
+16.1.2023, 20:00:25 - INFO - Req was made 
+16.1.2023, 20:00:25 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:00:25 - DEBUG - export toys 
+16.1.2023, 20:00:44 - INFO - App listening on port 3030! 
+16.1.2023, 20:00:44 - INFO - New connected socket [id: H_Smxd2QxZ5yPnBIAAAB] 
+16.1.2023, 20:00:47 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:00:47 - INFO - New connected socket [id: edvjyhZxwkKs_K9DAAAD] 
+16.1.2023, 20:00:47 - DEBUG - export toys 
+16.1.2023, 20:00:47 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:00:47 - INFO - Req was made 
+16.1.2023, 20:00:48 - INFO - Req was made 
+16.1.2023, 20:00:48 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:00:48 - DEBUG - export toys 
+16.1.2023, 20:00:59 - INFO - App listening on port 3030! 
+16.1.2023, 20:01:00 - INFO - New connected socket [id: ccolI7rrRbQrYa0RAAAB] 
+16.1.2023, 20:01:11 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:01:12 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:01:12 - INFO - Req was made 
+16.1.2023, 20:01:12 - DEBUG - export toys 
+16.1.2023, 20:01:12 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:01:12 - INFO - Req was made 
+16.1.2023, 20:01:12 - DEBUG - export toys 
+16.1.2023, 20:01:57 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:01:57 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:01:57 - INFO - Req was made 
+16.1.2023, 20:02:55 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:02:55 - INFO - New connected socket [id: -OR_O20YW-NgSLgwAAAD] 
+16.1.2023, 20:02:55 - INFO - Req was made 
+16.1.2023, 20:02:55 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:02:55 - DEBUG - export toys 
+16.1.2023, 20:02:55 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:02:55 - INFO - Req was made 
+16.1.2023, 20:02:55 - DEBUG - export toys 
+16.1.2023, 20:03:05 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:03:05 - DEBUG - export toys 
+16.1.2023, 20:03:05 - INFO - Req was made 
+16.1.2023, 20:03:06 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:03:06 - DEBUG - export toys 
+16.1.2023, 20:03:06 - INFO - Req was made 
+16.1.2023, 20:03:37 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:03:37 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:03:37 - INFO - Req was made 
+16.1.2023, 20:04:31 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:04:31 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:04:31 - INFO - Req was made 
+16.1.2023, 20:06:37 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:06:37 - ERROR - Failed to add review | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer 
+16.1.2023, 20:06:37 - ERROR - cannot insert review | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer 
+16.1.2023, 20:06:37 - INFO - Req was made 
+16.1.2023, 20:06:50 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:06:50 - ERROR - cannot insert review | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer 
+16.1.2023, 20:06:50 - ERROR - Failed to add review | BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer 
+16.1.2023, 20:06:50 - INFO - Req was made 
+16.1.2023, 20:07:35 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:07:35 - INFO - Req was made 
+16.1.2023, 20:07:35 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:08:04 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:08:05 - INFO - Req was made 
+16.1.2023, 20:08:05 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:08:10 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:08:10 - DEBUG - auth.service: ofeka25 
+16.1.2023, 20:08:10 - INFO - User login | {"_id":"63c54a1d333b740f72794d57","fullname":"Ofek Ashkenazi","username":"ofeka25","password":123,"isAdmin":true} 
+16.1.2023, 20:08:10 - INFO - Setting socket.userId = 63c54a1d333b740f72794d57 for socket [id: -OR_O20YW-NgSLgwAAAD] 
+16.1.2023, 20:08:10 - INFO - Req was made 
+16.1.2023, 20:08:12 - INFO - Req was made 
+16.1.2023, 20:08:12 - DEBUG - export toys 
+16.1.2023, 20:08:12 - INFO - Req was made 
+16.1.2023, 20:08:12 - DEBUG - export toys 
+16.1.2023, 20:08:13 - INFO - Req was made 
+16.1.2023, 20:08:16 - INFO - Req was made 
+16.1.2023, 20:08:24 - INFO - Req was made 
+16.1.2023, 20:10:37 - INFO - Req was made 
+16.1.2023, 20:12:30 - INFO - Req was made 
+16.1.2023, 20:12:35 - INFO - Req was made 
+16.1.2023, 20:12:52 - INFO - Req was made 
+16.1.2023, 20:12:52 - DEBUG - export toys 
+16.1.2023, 20:12:52 - INFO - Req was made 
+16.1.2023, 20:12:52 - DEBUG - export toys 
+16.1.2023, 20:12:56 - INFO - New connected socket [id: eBuDbi7SYh3DpyXXAAAF] 
+16.1.2023, 20:12:57 - INFO - Req was made 
+16.1.2023, 20:12:58 - INFO - Req was made 
+16.1.2023, 20:12:59 - INFO - Req was made 
+16.1.2023, 20:12:59 - DEBUG - export toys 
+16.1.2023, 20:12:59 - INFO - Req was made 
+16.1.2023, 20:12:59 - DEBUG - export toys 
+16.1.2023, 20:13:00 - INFO - Req was made 
+16.1.2023, 20:14:12 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:14:12 - INFO - Req was made 
+16.1.2023, 20:14:12 - INFO - New connected socket [id: ZNfRpZQp1JbuAp2JAAAH] 
+16.1.2023, 20:14:12 - INFO - Req was made 
+16.1.2023, 20:14:12 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:14:12 - DEBUG - export toys 
+16.1.2023, 20:14:12 - INFO - Req was made 
+16.1.2023, 20:14:12 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:14:12 - DEBUG - export toys 
+16.1.2023, 20:14:18 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:14:18 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:14:18 - INFO - Req was made 
+16.1.2023, 20:14:27 - DEBUG - auth.service: ofeka25 
+16.1.2023, 20:14:27 - INFO - User login | {"_id":"63c54a1d333b740f72794d57","fullname":"Ofek Ashkenazi","username":"ofeka25","password":123,"isAdmin":true} 
+16.1.2023, 20:14:27 - INFO - Setting socket.userId = 63c54a1d333b740f72794d57 for socket [id: -OR_O20YW-NgSLgwAAAD] 
+16.1.2023, 20:14:27 - INFO - Req was made 
+16.1.2023, 20:14:30 - INFO - Req was made 
+16.1.2023, 20:14:30 - DEBUG - export toys 
+16.1.2023, 20:14:30 - INFO - Req was made 
+16.1.2023, 20:14:30 - DEBUG - export toys 
+16.1.2023, 20:14:31 - INFO - Req was made 
+16.1.2023, 20:14:41 - ERROR - Cannot valid user | Error: value must not be null or undefined 
+16.1.2023, 20:14:41 - DEBUG - auth.service: justUser25 
+16.1.2023, 20:14:41 - INFO - User login | {"_id":"63c54a1d333b740f72794d58","fullname":"Just user","username":"justUser25","password":123,"isAdmin":false} 
+16.1.2023, 20:14:41 - INFO - Setting socket.userId = 63c54a1d333b740f72794d58 for socket [id: ZNfRpZQp1JbuAp2JAAAH] 
+16.1.2023, 20:14:41 - INFO - Req was made 
+16.1.2023, 20:14:42 - INFO - Req was made 
+16.1.2023, 20:14:42 - DEBUG - export toys 
+16.1.2023, 20:14:43 - INFO - Req was made 
+16.1.2023, 20:14:43 - DEBUG - export toys 
+16.1.2023, 20:14:43 - INFO - Req was made 
+16.1.2023, 20:14:48 - INFO - New chat msg from socket [id: ZNfRpZQp1JbuAp2JAAAH], emitting to topic 63c54954333b740f727816be 
+16.1.2023, 20:14:53 - INFO - Req was made 
+16.1.2023, 20:18:44 - INFO - App listening on port 3030! 
+16.1.2023, 20:18:45 - INFO - New connected socket [id: 5x5H1jb2E-mvIgT_AAAB] 
+16.1.2023, 20:18:45 - INFO - New connected socket [id: gNzbjmGR_NbcFP7lAAAD] 
+16.1.2023, 20:19:44 - INFO - App listening on port 3030! 
+16.1.2023, 20:19:44 - INFO - New connected socket [id: UYwa9vNANU6iPc_zAAAB] 
+16.1.2023, 20:19:45 - INFO - New connected socket [id: XegXzVavmD5KIhbGAAAD] 
+16.1.2023, 20:19:50 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:19:51 - INFO - New connected socket [id: mTmwTBbKzmpKdZ-RAAAF] 
+16.1.2023, 20:19:51 - INFO - Setting socket.userId = 63c54a1d333b740f72794d58 for socket [id: mTmwTBbKzmpKdZ-RAAAF] 
+16.1.2023, 20:19:52 - INFO - Req was made 
+16.1.2023, 20:19:52 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:19:53 - INFO - New connected socket [id: FyESzdQcnumHIY1uAAAH] 
+16.1.2023, 20:19:53 - INFO - Req was made 
+16.1.2023, 20:19:53 - INFO - Setting socket.userId = 63c54a1d333b740f72794d57 for socket [id: FyESzdQcnumHIY1uAAAH] 
+16.1.2023, 20:19:58 - INFO - Req was made 
+16.1.2023, 20:19:59 - INFO - Broadcasting event: review-added 
+16.1.2023, 20:19:59 - INFO - Broadcast to all excluding user: 63c54a1d333b740f72794d57 
+16.1.2023, 20:20:27 - INFO - Req was made 
+16.1.2023, 20:20:29 - INFO - Req was made 
+16.1.2023, 20:20:31 - DEBUG - export toys 
+16.1.2023, 20:20:31 - INFO - Req was made 
+16.1.2023, 20:20:31 - INFO - Req was made 
+16.1.2023, 20:20:31 - DEBUG - export toys 
+16.1.2023, 20:20:32 - INFO - Req was made 
+16.1.2023, 20:20:32 - DEBUG - export toys 
+16.1.2023, 20:20:32 - INFO - Req was made 
+16.1.2023, 20:20:32 - DEBUG - export toys 
+16.1.2023, 20:20:33 - INFO - Req was made 
+16.1.2023, 20:20:35 - INFO - Req was made 
+16.1.2023, 20:21:26 - INFO - App listening on port 3030! 
+16.1.2023, 20:21:27 - INFO - New connected socket [id: al3A0P39l9TbbojRAAAB] 
+16.1.2023, 20:21:27 - INFO - New connected socket [id: kJhx4ahaqHp-7KOIAAAD] 
+16.1.2023, 20:22:22 - INFO - Req was made 
+16.1.2023, 20:22:29 - INFO - Req was made 
+16.1.2023, 20:22:29 - DEBUG - export toys 
+16.1.2023, 20:22:29 - INFO - Req was made 
+16.1.2023, 20:22:29 - DEBUG - export toys 
+16.1.2023, 20:26:31 - INFO - App listening on port 3030! 
+16.1.2023, 20:26:32 - INFO - New connected socket [id: PAmeX73OZCv5DL5JAAAB] 
+16.1.2023, 20:26:33 - INFO - New connected socket [id: QPt019JKGjkEcs_FAAAD] 
+16.1.2023, 20:26:51 - INFO - App listening on port 3030! 
+16.1.2023, 20:26:51 - INFO - New connected socket [id: cWXz6F5lp1S8q4eZAAAB] 
+16.1.2023, 20:26:52 - INFO - New connected socket [id: wdbM8O0ihWXSrJuQAAAD] 
+16.1.2023, 20:27:16 - INFO - App listening on port 3030! 
+16.1.2023, 20:27:16 - INFO - New connected socket [id: Ix16qa0UaLyGqkj8AAAB] 
+16.1.2023, 20:27:17 - INFO - New connected socket [id: 8N4O8ngl0xyN8YBBAAAD] 
+16.1.2023, 20:28:55 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:28:56 - INFO - New connected socket [id: ODtcgAYZRKpEuVbnAAAF] 
+16.1.2023, 20:28:56 - INFO - Req was made 
+16.1.2023, 20:28:56 - DEBUG - export toys 
+16.1.2023, 20:28:57 - INFO - Setting socket.userId = 63c54a1d333b740f72794d57 for socket [id: ODtcgAYZRKpEuVbnAAAF] 
+16.1.2023, 20:28:57 - INFO - Req was made 
+16.1.2023, 20:28:57 - DEBUG - export toys 
+16.1.2023, 20:29:03 - INFO - Req was made 
+16.1.2023, 20:29:03 - DEBUG - export toys 
+16.1.2023, 20:29:03 - INFO - Req was made 
+16.1.2023, 20:29:03 - DEBUG - export toys 
+16.1.2023, 20:29:46 - INFO - Req was made 
+16.1.2023, 20:29:46 - DEBUG - export toys 
+16.1.2023, 20:29:47 - INFO - Req was made 
+16.1.2023, 20:29:47 - DEBUG - export toys 
+16.1.2023, 20:29:48 - INFO - Req was made 
+16.1.2023, 20:29:53 - INFO - New chat msg from socket [id: ODtcgAYZRKpEuVbnAAAF], emitting to topic 63c54954333b740f727816be 
+16.1.2023, 20:29:57 - INFO - Req was made 
+16.1.2023, 20:29:58 - INFO - Req was made 
+16.1.2023, 20:29:58 - DEBUG - export toys 
+16.1.2023, 20:29:58 - INFO - Req was made 
+16.1.2023, 20:29:58 - DEBUG - export toys 
+16.1.2023, 20:30:00 - INFO - Req was made 
+16.1.2023, 20:30:02 - DEBUG - export toys 
+16.1.2023, 20:30:02 - INFO - Req was made 
+16.1.2023, 20:30:02 - INFO - Req was made 
+16.1.2023, 20:30:02 - DEBUG - export toys 
+16.1.2023, 20:30:05 - INFO - Req was made 
+16.1.2023, 20:30:05 - DEBUG - export toys 
+16.1.2023, 20:30:06 - INFO - Req was made 
+16.1.2023, 20:30:06 - DEBUG - export toys 
+16.1.2023, 20:30:21 - INFO - Req was made 
+16.1.2023, 20:30:21 - DEBUG - export toys 
+16.1.2023, 20:30:21 - INFO - Req was made 
+16.1.2023, 20:30:21 - DEBUG - export toys 
+16.1.2023, 20:30:58 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:34:12 - INFO - Req was made 
+16.1.2023, 20:34:12 - DEBUG - export toys 
+16.1.2023, 20:34:13 - INFO - Req was made 
+16.1.2023, 20:34:13 - DEBUG - export toys 
+16.1.2023, 20:35:59 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:36:00 - INFO - New connected socket [id: EwU5Dk1tlnOx9ihBAAAH] 
+16.1.2023, 20:36:00 - INFO - Req was made 
+16.1.2023, 20:36:00 - DEBUG - export toys 
+16.1.2023, 20:36:00 - DEBUG - export toys 
+16.1.2023, 20:36:00 - INFO - Req was made 
+16.1.2023, 20:36:00 - INFO - Setting socket.userId = 63c54a1d333b740f72794d57 for socket [id: EwU5Dk1tlnOx9ihBAAAH] 
+16.1.2023, 20:36:06 - INFO - Req was made 
+16.1.2023, 20:36:06 - DEBUG - export toys 
+16.1.2023, 20:36:06 - INFO - Req was made 
+16.1.2023, 20:36:06 - DEBUG - export toys 
+16.1.2023, 20:36:16 - INFO - Req was made 
+16.1.2023, 20:36:16 - DEBUG - export toys 
+16.1.2023, 20:36:17 - INFO - Req was made 
+16.1.2023, 20:36:17 - DEBUG - export toys 
+16.1.2023, 20:36:20 - INFO - Req was made 
+16.1.2023, 20:36:23 - INFO - Req was made 
+16.1.2023, 20:36:23 - INFO - Broadcasting event: review-added 
+16.1.2023, 20:36:23 - INFO - Broadcast to all excluding user: 63c54a1d333b740f72794d57 
+16.1.2023, 20:36:26 - INFO - Req was made 
+16.1.2023, 20:36:29 - INFO - Req was made 
+16.1.2023, 20:36:31 - INFO - New chat msg from socket [id: EwU5Dk1tlnOx9ihBAAAH], emitting to topic 63c54954333b740f727816be 
+16.1.2023, 20:36:33 - INFO - New chat msg from socket [id: EwU5Dk1tlnOx9ihBAAAH], emitting to topic 63c54954333b740f727816be 
+16.1.2023, 20:42:18 - INFO - Req was made 
+16.1.2023, 20:42:36 - INFO - Req was made 
+16.1.2023, 20:42:36 - DEBUG - export toys 
+16.1.2023, 20:42:36 - INFO - Req was made 
+16.1.2023, 20:42:36 - DEBUG - export toys 

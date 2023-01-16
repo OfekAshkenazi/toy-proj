@@ -1,4 +1,6 @@
 import { httpService } from './http.service.js'
+import { userService } from './user.service.js'
+import { utilService } from './util.service.js'
 const labels = ['On wheels', 'Box game', '"Art', 'Baby', 'Doll', 'Puzzle', 'Outdoor', 'Battery Powered']
 const BASE_URL = 'toy'
 export const toyService = {
@@ -8,7 +10,9 @@ export const toyService = {
     remove,
     getEmptyToy,
     getDefaultFilter,
-    getFilterFromSearchParams
+    getFilterFromSearchParams,
+    addToyMsg,
+    getEmptyMsg
 }
 
 function getFilterFromSearchParams(searchParams) {
@@ -26,7 +30,7 @@ function getDefaultFilter() {
 
 async function query(filterBy) {
     let List
-    const queryParams = `?name=${filterBy.name}&inStock=${filterBy.inStock}`
+    let queryParams = `?name=${filterBy.name}&inStock=${filterBy.inStock}`
     try {
         if (!filterBy) {
             List = await httpService.get(BASE_URL)
@@ -65,6 +69,11 @@ async function save(toy) {
     return savedToy
 }
 
+async function addToyMsg(toyId, msg) {
+    const savedMsg = await httpService.post(BASE_URL + `/${toyId}/msg`, msg)
+    return savedMsg
+}
+
 function getEmptyToy() {
     const toy = {
         name: '',
@@ -74,4 +83,13 @@ function getEmptyToy() {
         inStock: true
     }
     return toy
+}
+
+function getEmptyMsg() {
+    const msg = {
+        id: utilService.makeId(),
+        txt: '',
+       
+    }
+    return msg
 }

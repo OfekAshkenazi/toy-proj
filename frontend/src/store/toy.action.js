@@ -1,7 +1,19 @@
 // import { toyService } from '../services/toy.service.js'
+import { httpService } from '../services/http.service.js'
 import { toyService } from '../services/toy-back.service.js'
 import { store } from '../store/store.js'
-import { SET_TOYS, REMOVE_TOY, UPDATE_TOY, ADD_TOY } from '../store/toy.reducer.js'
+import { SET_TOYS, REMOVE_TOY, UPDATE_TOY, ADD_TOY, ADD_TOY_MSG } from '../store/toy.reducer.js'
+
+export async function saveMsgToToy(msg, toyId) {
+    try {
+        const savedMsg = await toyService.addToyMsg(toyId, msg)
+        console.log(savedMsg)
+        // store.dispatch({type: ADD_TOY_MSG, })
+    } catch (err) {
+        console.log('Cannot add msg to toy', err)
+    }
+
+}
 
 export async function saveToy(toy) {
     const type = (toy._id) ? UPDATE_TOY : ADD_TOY
@@ -27,8 +39,13 @@ export async function removeToy(toyId) {
 
 export async function loadToys(filterBy) {
     try {
-        const toys = await toyService.query(filterBy)
-        store.dispatch({ type: SET_TOYS, toys })
+        if (!filterBy) {
+            const toys = await toyService.query()
+            store.dispatch({ type: SET_TOYS, toys })
+        } else {
+            const toys = await toyService.query(filterBy)
+            store.dispatch({ type: SET_TOYS, toys })
+        }
 
     } catch (err) {
         console.log('Had issues loading toys', err)
@@ -36,24 +53,3 @@ export async function loadToys(filterBy) {
     }
 }
 
-// export function loadToys(filterBy) {
-//     return toyService.query(filterBy)
-//         .then((toys) => {
-//             store.dispatch({ type: SET_TOYS, toys })
-//         })
-//         .catch(err => {
-//             console.log('Had issues loading toys', err)
-//             throw err
-//         })
-// }
-
-// export function removeToy(toyId) {
-//     return toyService.remove(toyId)
-//         .then(() => {
-//             store.dispatch({ type: REMOVE_TOY, toyId })
-//         })
-//         .catch(err => {
-//             console.log('Had issues Removing toy', err)
-//             throw err
-//         })
-// }

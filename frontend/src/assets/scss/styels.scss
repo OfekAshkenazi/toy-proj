@@ -2,6 +2,7 @@
 @import 'setup/functions';
 @import 'setup/variables';
 @import 'setup/mixins';
+@import 'setup/typography.scss';
 
 // BASICS
 @import 'basics/helpers';
@@ -15,6 +16,10 @@
 @import 'cmp/about';
 @import 'cmp/toy-list';
 @import 'cmp/toy-details';
+@import 'cmp/index-header';
+@import 'cmp/profile';
+@import 'cmp/review-list';
+@import 'cmp/user-msg';
 
 //VIEWS
 
